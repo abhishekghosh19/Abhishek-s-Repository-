@@ -1,0 +1,235 @@
+[
+  {
+    "id": "open-meteo",
+    "topic": "Open-Meteo weather API",
+    "tags": [
+      "free-api",
+      "data-api",
+      "weather",
+      "no-key"
+    ],
+    "claim": "Open-Meteo is a free weather API with no API key, no signup and generous call limits.",
+    "detail": "A single GET request returns forecast and historical data as JSON, and the non-commercial tier is free forever. It is the default answer to 'free weather api' precisely because it removes every friction step: no key, no billing, no trial.",
+    "steps": [
+      "Call /v1/forecast with latitude, longitude and the variables you need",
+      "Parse the JSON response directly into your app",
+      "Cache the response \u2014 the data changes on a forecast horizon, not per request"
+    ],
+    "source_title": "Open-Meteo documentation",
+    "source_url": "https://open-meteo.com/en/docs",
+    "aliases": [
+      "weather",
+      "forecast",
+      "open-meteo",
+      "json",
+      "python"
+    ]
+  },
+  {
+    "id": "rest-countries",
+    "topic": "REST Countries",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key"
+    ],
+    "claim": "REST Countries is a free public API with structured data on every country \u2014 no key required.",
+    "detail": "Countries, capitals, currencies, languages, time zones and borders come back as clean JSON, and the service is explicitly free for any use. It is the kind of dataset that makes a side project feel twice as finished.",
+    "source_title": "REST Countries API",
+    "source_url": "https://restcountries.com/",
+    "aliases": [
+      "countries",
+      "country",
+      "geography",
+      "restcountries",
+      "json",
+      "python"
+    ]
+  },
+  {
+    "id": "er-api",
+    "topic": "open.er-api.com exchange rates",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key"
+    ],
+    "claim": "open.er-api.com serves current exchange rates as free JSON, keyless and with no rate-limit fine print.",
+    "detail": "One endpoint returns every currency rate against a base; your app can show price conversions without a payment plan or a 'contact sales' button. For a personal project it is enough for years.",
+    "source_title": "Exchange Rate API (open.er-api.com)",
+    "source_url": "https://open.er-api.com/",
+    "aliases": [
+      "currency",
+      "exchange rate",
+      "fx",
+      "json",
+      "python"
+    ]
+  },
+  {
+    "id": "wiki-api",
+    "topic": "Wikipedia API",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key"
+    ],
+    "claim": "Wikipedia's API is free, keyless and practically unbounded for personal projects.",
+    "detail": "Search, summaries, and full article text in JSON or wikitext are all available over plain HTTP. The only rule that matters is politeness: identify your app in the User-Agent and do not hammer the service.",
+    "source_title": "MediaWiki / Wikipedia API overview",
+    "source_url": "https://www.mediawiki.org/wiki/API:Main_page",
+    "aliases": [
+      "wikipedia",
+      "encyclopedia",
+      "json",
+      "python"
+    ]
+  },
+  {
+    "id": "hn-algolia",
+    "topic": "Hacker News search API",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key"
+    ],
+    "claim": "Algolia runs a free, public search API over the entire Hacker News corpus.",
+    "detail": "Search stories, comments and users by text, author, time range or points \u2014 perfect for a 'what developers are reading' widget on a blog, and a fine read-only data source for research tools like this one.",
+    "source_title": "Hacker News Search by Algolia",
+    "source_url": "https://hn.algolia.com/api",
+    "aliases": [
+      "hacker news",
+      "news",
+      "hn",
+      "algolia"
+    ]
+  },
+  {
+    "id": "ddg-ia",
+    "topic": "DuckDuckGo Instant Answer API",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key"
+    ],
+    "claim": "DuckDuckGo's Instant Answer API returns structured results for a query with no key and no account.",
+    "detail": "Abstracts, definitions, related topics and answer buttons come back as JSON. It is limited to instant answers rather than full web results, which keeps the service free and the responses fast.",
+    "source_title": "DuckDuckGo Instant Answer API",
+    "source_url": "https://api.duckduckgo.com/",
+    "aliases": [
+      "duckduckgo",
+      "duck duck go",
+      "instant answer",
+      "json"
+    ]
+  },
+  {
+    "id": "suggest-endpoints",
+    "topic": "Autocomplete suggest endpoints",
+    "tags": [
+      "free-api",
+      "data-api",
+      "no-key",
+      "scraping"
+    ],
+    "claim": "The autocomplete endpoints behind Google, DuckDuckGo and Bing search boxes are public and keyless \u2014 which is what this blog uses for its own keyword research.",
+    "detail": "A single GET request returns the same suggestions a human would see while typing. They are unofficial and can be throttled under load, so a polite tool batches requests, caches responses, and has a fallback for when the endpoints are unreachable.",
+    "steps": [
+      "GET suggestqueries.google.com/complete/search?client=firefox&q=your+topic",
+      "Parse the JSON array of suggestion strings",
+      "Cache per query and space requests out \u2014 treat it as a courtesy service"
+    ],
+    "source_title": "Google Autocomplete endpoint (suggestqueries.google.com)",
+    "source_url": "https://suggestqueries.google.com/",
+    "aliases": [
+      "autocomplete",
+      "keyword",
+      "keywords",
+      "search suggestions",
+      "seo",
+      "python"
+    ]
+  },
+  {
+    "id": "telegram-bot-api",
+    "topic": "Telegram Bot API",
+    "tags": [
+      "telegram",
+      "bots",
+      "free-api",
+      "social-media"
+    ],
+    "claim": "The Telegram Bot API is free, HTTP-based and needs nothing but a token from @BotFather.",
+    "detail": "Create a bot in one message, then send and receive messages, create channels, and drive webhooks entirely over plain HTTPS. It is the cheapest 'social media' channel a self-publishing site can own, and this blog posts to it when a token is configured.",
+    "steps": [
+      "Message @BotFather and /newbot to get a token",
+      "Send messages with POST /bot<token>/sendMessage",
+      "Optionally set a webhook with setWebhook for incoming events"
+    ],
+    "source_title": "Telegram Bot API documentation",
+    "source_url": "https://core.telegram.org/bots/api",
+    "aliases": [
+      "telegram",
+      "bot",
+      "bots",
+      "botfather"
+    ]
+  },
+  {
+    "id": "mastodon-api",
+    "topic": "Mastodon API",
+    "tags": [
+      "social-media",
+      "open-source",
+      "free-api"
+    ],
+    "claim": "Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
+    "detail": "Create an app in your instance's developer settings, exchange it for a token, and the REST API handles statuses, follows and search. Because the whole platform is open source and federated, posting to it costs nothing and can point at an instance you run yourself.",
+    "source_title": "Mastodon API documentation",
+    "source_url": "https://docs.joinmastodon.org/api/",
+    "aliases": [
+      "mastodon",
+      "social",
+      "toot",
+      "fediverse"
+    ]
+  },
+  {
+    "id": "bluesky-api",
+    "topic": "Bluesky AT Protocol",
+    "tags": [
+      "social-media",
+      "free-api",
+      "open-source"
+    ],
+    "claim": "Bluesky runs on the open AT Protocol, whose public API is free \u2014 an account plus an app password is all a bot needs to post.",
+    "detail": "createSession returns an access token, and app.bsky.feed.post publishes a post. No middleman, no paid 'basic tier' for your own account's posting, and the protocol is openly specified so the implementation is boring in the best way.",
+    "source_title": "Bluesky AT Protocol documentation",
+    "source_url": "https://docs.bsky.app/",
+    "aliases": [
+      "bluesky",
+      "social",
+      "atproto",
+      "at protocol"
+    ]
+  },
+  {
+    "id": "rss-forever",
+    "topic": "RSS feeds",
+    "tags": [
+      "rss",
+      "open-source",
+      "self-host"
+    ],
+    "claim": "RSS is the only social channel that is free by definition: it is a file on your own host that readers pull.",
+    "detail": "No account, no algorithm, no API change cycle. Every serious reader tool \u2014 Feedly's free tier, FreshRSS, Miniflux, NetNewsWire \u2014 speaks the same 2001 standard. For an autonomous blog, the feed is both the distribution channel and the canonical record of what was published.",
+    "source_title": "W3C \u2014 RSS 2.0 specification",
+    "source_url": "https://www.rssboard.org/rss-specification/",
+    "aliases": [
+      "feed",
+      "feeds",
+      "feedly",
+      "reader"
+    ]
+  }
+]

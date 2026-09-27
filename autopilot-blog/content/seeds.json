@@ -1,0 +1,16 @@
+[
+  {"query": "free api for developers", "tags": ["free-api", "data-api"]},
+  {"query": "free hosting for static sites", "tags": ["free-hosting", "static-sites"]},
+  {"query": "open source alternative to zapier", "tags": ["open-source", "automation"]},
+  {"query": "github actions scheduled workflows", "tags": ["github", "automation"]},
+  {"query": "free llm api", "tags": ["llm", "free-api"]},
+  {"query": "self hosted rss reader", "tags": ["rss", "self-host"]},
+  {"query": "free seo tools", "tags": ["seo"]},
+  {"query": "python web scraping", "tags": ["python", "scraping"]},
+  {"query": "telegram bot api", "tags": ["telegram", "bots"]},
+  {"query": "free custom domain", "tags": ["domains"]},
+  {"query": "cloudflare pages", "tags": ["free-hosting", "static-sites"]},
+  {"query": "gemini api free tier", "tags": ["llm", "free-api"]},
+  {"query": "open source notion alternative", "tags": ["open-source"]},
+  {"query": "free weather api", "tags": ["free-api", "data-api"]}
+]

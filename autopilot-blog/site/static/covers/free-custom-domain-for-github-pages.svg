@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="The Complete Guide to Free Custom Domain for Github Pages (2026)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(146 70% 46%)"/>
+      <stop offset="1" stop-color="hsl(191 75% 30%)"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1080" cy="110" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="980" cy="540" r="230" fill="#ffffff" opacity="0.05"/>
+  <text x="72" y="120" font-family="Verdana, Geneva, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" opacity="0.92">THE FREE STACK</text>
+  <rect x="72" y="150" width="120" height="6" rx="3" fill="#ffffff" opacity="0.85"/>
+  <text x="72" y="300" font-family="Verdana, Geneva, sans-serif" font-size="58" font-weight="bold" fill="#ffffff">The Complete Guide to Free</text>
+  <text x="72" y="370" font-family="Verdana, Geneva, sans-serif" font-size="58" font-weight="bold" fill="#ffffff">Custom Domain for Github</text>
+  <text x="72" y="565" font-family="Verdana, Geneva, sans-serif" font-size="22" fill="#ffffff" opacity="0.75">free &amp; open tools, zero budget  ·  #free-custom-domain-for-github-pages</text>
+</svg>

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "n8n",
+    "topic": "n8n workflow automation",
+    "tags": [
+      "open-source",
+      "automation",
+      "self-host"
+    ],
+    "claim": "n8n is a workflow automation tool in the spirit of Zapier that you can self-host for free.",
+    "detail": "It is fair-code (not strictly open source, which the project is upfront about) and runs entirely on your own machine with a Docker container. The free personal use is unlimited; teams pay only when they outgrow the hobby tier. For a blog it handles the glue: fetch, transform, publish, notify.",
+    "source_title": "n8n",
+    "source_url": "https://n8n.io/",
+    "aliases": [
+      "zapier",
+      "zapier alternative",
+      "workflow",
+      "automation"
+    ]
+  },
+  {
+    "id": "activepieces",
+    "topic": "Activepieces",
+    "tags": [
+      "open-source",
+      "automation",
+      "self-host"
+    ],
+    "claim": "Activepieces is an open-source automation platform \u2014 a genuine free alternative to Zapier and Make.",
+    "detail": "You build visual flows or write pieces in TypeScript, and it runs self-hosted under a license that allows free personal and commercial use. Like n8n it turns 'I do this manually twice a week' into a node on a canvas.",
+    "source_title": "Activepieces",
+    "source_url": "https://www.activepieces.com/",
+    "aliases": [
+      "zapier",
+      "zapier alternative",
+      "make",
+      "automation"
+    ]
+  },
+  {
+    "id": "penpot",
+    "topic": "Penpot",
+    "tags": [
+      "open-source",
+      "design",
+      "self-host"
+    ],
+    "claim": "Penpot is the open-source Figma alternative \u2014 real design tooling, free, with self-hosting built in.",
+    "detail": "It runs in the browser, speaks native SVG, and the community edition is free. Self-hosting means your design files never live on someone else's server, which matters less for a blog and more the moment you start designing product UI.",
+    "source_title": "Penpot",
+    "source_url": "https://penpot.app/",
+    "aliases": [
+      "figma",
+      "figma alternative",
+      "design"
+    ]
+  },
+  {
+    "id": "appflowy",
+    "topic": "AppFlowy",
+    "tags": [
+      "open-source",
+      "self-host",
+      "productivity"
+    ],
+    "claim": "AppFlowy is an open-source Notion alternative you can run locally or self-host, free.",
+    "detail": "Documents, databases, kanban and wiki-style workspaces, with data stored where you choose \u2014 local files or your own server. It is the standard answer to 'Notion but open source', and it is genuinely maintained.",
+    "source_title": "AppFlowy",
+    "source_url": "https://appflowy.com/",
+    "aliases": [
+      "notion",
+      "notion alternative",
+      "notes",
+      "wiki"
+    ]
+  },
+  {
+    "id": "affine",
+    "topic": "Affine",
+    "tags": [
+      "open-source",
+      "self-host",
+      "productivity"
+    ],
+    "claim": "Affine is another open-source Notion/Miro hybrid: documents, edgeless canvas, and self-hosting in the community edition.",
+    "detail": "It leans into 'everything is a block' and lets the same content be a doc or a whiteboard. Self-hosting runs through Docker Compose, and the community edition's free tier is generous for individuals and small teams.",
+    "source_title": "Affine",
+    "source_url": "https://affine.pro/",
+    "aliases": [
+      "notion",
+      "notion alternative",
+      "miro",
+      "whiteboard"
+    ]
+  },
+  {
+    "id": "freshrss",
+    "topic": "FreshRSS",
+    "tags": [
+      "rss",
+      "open-source",
+      "self-host"
+    ],
+    "claim": "FreshRSS is a self-hosted RSS reader written in PHP \u2014 the classic free way to own your feed reading.",
+    "detail": "Install it on any PHP host or in a container, add your feeds (this blog's feed.xml included), and you have a reader with no ads, no trial, and no account. Full-text mode, tags and sharing make it a daily driver, not a toy.",
+    "steps": [
+      "Run the Docker image or clone the repo onto a PHP host",
+      "Complete the web installer and add feed URLs",
+      "Read, tag and archive at your own pace"
+    ],
+    "source_title": "FreshRSS",
+    "source_url": "https://freshrss.org/",
+    "aliases": [
+      "feedly",
+      "feedly alternative",
+      "reader",
+      "rss reader"
+    ]
+  },
+  {
+    "id": "miniflux",
+    "topic": "Miniflux",
+    "tags": [
+      "rss",
+      "open-source",
+      "self-host"
+    ],
+    "claim": "Miniflux is a minimalist, high-performance self-hosted RSS reader in a single Go binary.",
+    "detail": "One static binary and a database \u2014 SQLite works for one reader. It is fast, stable, and its whole feature set fits on a screen. For an automation-focused blog owner, it pairs naturally: the blog publishes to feed.xml, Miniflux reads it.",
+    "source_title": "Miniflux",
+    "source_url": "https://miniflux.app/",
+    "aliases": [
+      "feedly",
+      "feedly alternative",
+      "reader",
+      "rss reader"
+    ]
+  },
+  {
+    "id": "cal-com",
+    "topic": "Cal.com",
+    "tags": [
+      "open-source",
+      "self-host",
+      "productivity"
+    ],
+    "claim": "Cal.com is the open-source Calendly alternative \u2014 scheduling links, free, self-hostable.",
+    "detail": "The cloud free tier covers personal scheduling, and the source is there if you want it on your own domain and stack. Few things on the 'free alternative' list are this complete; it is the reference for the category.",
+    "source_title": "Cal.com",
+    "source_url": "https://cal.com/",
+    "aliases": [
+      "calendly",
+      "calendly alternative",
+      "scheduling",
+      "calendar"
+    ]
+  },
+  {
+    "id": "oss-license",
+    "topic": "Reading the license first",
+    "tags": [
+      "open-source"
+    ],
+    "claim": "'Free' and 'open source' are not the same word \u2014 the license is the actual contract.",
+    "detail": "MIT and Apache-2.0 let you do almost anything with attribution; AGPL keeps forks open; fair-code (like n8n) limits offering it as a hosted service; and 'free tier' SaaS is a product decision, not a license. Ten seconds with the license file saves a lot of later surprises.",
+    "source_title": "Open Source Initiative \u2014 License list",
+    "source_url": "https://opensource.org/licenses",
+    "aliases": [
+      "license",
+      "licensing",
+      "oss",
+      "mit",
+      "agpl",
+      "apache"
+    ]
+  }
+]

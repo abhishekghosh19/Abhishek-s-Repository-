@@ -1,0 +1,128 @@
+[
+  {
+    "id": "gemini-free",
+    "topic": "Gemini API free tier",
+    "tags": [
+      "llm",
+      "free-api",
+      "ai",
+      "no-key"
+    ],
+    "claim": "Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+    "detail": "You sign in with a Google account, create a key in AI Studio, and call the models over an OpenAI-compatible endpoint. The free tier's rate limits are more than enough for a blog that writes a few posts a day, and the paid tier is only for when you outgrow the quotas.",
+    "steps": [
+      "Create a Google AI Studio API key",
+      "Point any OpenAI-compatible client at the Gemini OpenAI endpoint",
+      "Set LLM_BASE_URL, LLM_API_KEY and LLM_MODEL and this engine writes with it"
+    ],
+    "source_title": "Google \u2014 Gemini API rate limits",
+    "source_url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "aliases": [
+      "gemini",
+      "google",
+      "google ai",
+      "ai studio"
+    ]
+  },
+  {
+    "id": "groq-free",
+    "topic": "Groq free tier",
+    "tags": [
+      "llm",
+      "free-api",
+      "ai"
+    ],
+    "claim": "Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+    "detail": "Llama-family models run on dedicated hardware that makes response times almost embarrassing, and the free tier has enough tokens for a daily content job. It plugs into this engine through the same OpenAI-compatible interface as every other provider.",
+    "source_title": "Groq \u2014 Console and free tier",
+    "source_url": "https://console.groq.com/",
+    "aliases": [
+      "groq",
+      "llama",
+      "llama 3"
+    ]
+  },
+  {
+    "id": "openrouter-free",
+    "topic": "OpenRouter free models",
+    "tags": [
+      "llm",
+      "free-api",
+      "ai"
+    ],
+    "claim": "OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+    "detail": "One key, one endpoint, many backends \u2014 you can switch models in a config line and keep the same code. The free models rotate, but the pattern is stable: check the model list, pick the ones marked free, done.",
+    "source_title": "OpenRouter \u2014 model list and pricing",
+    "source_url": "https://openrouter.ai/models",
+    "aliases": [
+      "openrouter",
+      "open router"
+    ]
+  },
+  {
+    "id": "ollama-local",
+    "topic": "Ollama local LLMs",
+    "tags": [
+      "llm",
+      "open-source",
+      "self-host",
+      "ai"
+    ],
+    "claim": "Ollama runs open-weight LLMs on your own hardware \u2014 free forever, fully private, and it speaks an OpenAI-compatible API.",
+    "detail": "Install the one binary, pull a model, and localhost:11434 serves chat completions exactly like a cloud API. The cost is your electricity and your patience for slower tokens; the benefit is zero rate limits and zero data leaving the machine.",
+    "steps": [
+      "Install Ollama and pull a model (e.g. a 7-8B class model)",
+      "Expose the local server or point the engine at it directly",
+      "Set LLM_BASE_URL to the Ollama OpenAI-compatible path"
+    ],
+    "source_title": "Ollama",
+    "source_url": "https://ollama.com/",
+    "aliases": [
+      "local llm",
+      "local model",
+      "llama",
+      "ollama",
+      "local"
+    ]
+  },
+  {
+    "id": "hf-inference",
+    "topic": "Hugging Face Inference",
+    "tags": [
+      "llm",
+      "free-api",
+      "ai",
+      "open-source"
+    ],
+    "claim": "Hugging Face hosts thousands of open models and offers free inference access for personal projects.",
+    "detail": "It is the natural home for open-weight models: you find the model card, read the license, and call it through the Inference Providers API. Free allowances vary by model and provider, but the catalog is the largest in the open ecosystem.",
+    "source_title": "Hugging Face \u2014 Inference Providers",
+    "source_url": "https://huggingface.co/docs/inference-providers",
+    "aliases": [
+      "huggingface",
+      "hugging face",
+      "inference"
+    ]
+  },
+  {
+    "id": "llm-choice",
+    "topic": "Choosing a free LLM for a blog",
+    "tags": [
+      "llm",
+      "ai",
+      "free-api",
+      "blog"
+    ],
+    "claim": "For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person.",
+    "detail": "A few posts a day uses a tiny fraction of any free tier's daily allowance. The practical recipe: pick one primary provider for reliability, keep a second as fallback in an env var, and let the engine fall back to its template writer if both fail \u2014 the blog never misses a publish date.",
+    "source_title": "The Free Stack \u2014 this engine's writer module",
+    "source_url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog",
+    "aliases": [
+      "llm",
+      "model",
+      "models",
+      "chatbot",
+      "writing"
+    ]
+  }
+]

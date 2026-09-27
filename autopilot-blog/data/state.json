@@ -1,0 +1,429 @@
+{
+  "counters": {
+    "posts_published": 5,
+    "posts_refreshed": 1,
+    "social_delivered": 10,
+    "social_skipped": 0
+  },
+  "keywords_seen": {
+    "cloudflare pages free tier limits": 5.33,
+    "free api for developers json": 4.83,
+    "free api for developers no key": 4.92,
+    "free api for developers python": 5.25,
+    "free api for developers unlimited": 4.67,
+    "free custom domain eu.org": 4.83,
+    "free custom domain for github pages": 5.42,
+    "free custom domain is-a.dev": 4.75,
+    "free custom domain subdomain": 4.67,
+    "free hosting for static sites cloudflare": 5.25,
+    "free hosting for static sites github pages": 5.33,
+    "free hosting for static sites netlify": 5.08,
+    "free hosting for static sites unlimited bandwidth": 5.42,
+    "free hosting for static sites with custom domain": 5.17,
+    "free llm api gemini": 5.25,
+    "free llm api groq": 5.17,
+    "free llm api no credit card": 5.42,
+    "free llm api openrouter": 5.08,
+    "free llm api unlimited": 5.33,
+    "free seo tools for small websites": 5.42,
+    "free seo tools google search console": 4.83,
+    "free seo tools keyword research": 4.67,
+    "free seo tools sitemap generator": 4.75,
+    "free seo tools vs ahrefs": 4.58,
+    "free weather api for developers": 4.67,
+    "free weather api json": 4.75,
+    "free weather api no key": 4.92,
+    "free weather api open-meteo": 4.83,
+    "free weather api vs openweathermap": 4.58,
+    "gemini api free tier limits": 5.42,
+    "gemini api free tier no credit card": 5.08,
+    "gemini api free tier python": 5.25,
+    "gemini api free tier rate limits 2026": 5.17,
+    "gemini api free tier vs groq": 5.33,
+    "github actions scheduled workflows cron": 4.92,
+    "github actions scheduled workflows free tier": 5.33,
+    "open source alternative to zapier free": 5.25,
+    "open source alternative to zapier github": 5.33,
+    "open source alternative to zapier n8n": 5.17,
+    "open source alternative to zapier self hosted": 5.42,
+    "open source alternative to zapier vs make": 5.08,
+    "open source notion alternative affine": 5.25,
+    "open source notion alternative appflowy": 5.33,
+    "open source notion alternative free": 5.17,
+    "open source notion alternative self hosted": 5.42,
+    "open source notion alternative vs obsidian": 5.08,
+    "python web scraping legal": 4.67,
+    "python web scraping library": 4.92,
+    "python web scraping politely": 4.75,
+    "python web scraping requests": 4.83,
+    "self hosted rss reader docker": 4.92,
+    "self hosted rss reader freshrss": 4.83,
+    "self hosted rss reader miniflux": 4.75,
+    "self hosted rss reader on raspberry pi": 4.67,
+    "self hosted rss reader vs feedly": 4.58,
+    "telegram bot api free": 5.42,
+    "telegram bot api python": 5.33,
+    "telegram bot api rate limits": 5.17,
+    "telegram bot api send message": 5.08,
+    "telegram bot api webhook": 5.25
+  },
+  "last_run_at": "2026-09-27T16:59:00+00:00",
+  "posts": {
+    "free-custom-domain-for-github-pages": {
+      "backend": "template",
+      "created": "2026-09-27T16:59:00+00:00",
+      "tags": [
+        "free-hosting",
+        "hosting",
+        "github",
+        "static-sites"
+      ],
+      "title": "The Complete Guide to Free Custom Domain for Github Pages (2026)",
+      "updated": "2026-09-27T16:59:00+00:00",
+      "words": 739
+    },
+    "free-llm-api-no-credit-card": {
+      "backend": "template",
+      "created": "2026-09-27T16:55:37+00:00",
+      "tags": [
+        "free-api",
+        "ai",
+        "llm",
+        "no-key"
+      ],
+      "title": "The Complete Guide to Free LLM API No Credit Card (2026)",
+      "updated": "2026-09-27T16:55:37+00:00",
+      "updated_count": 1,
+      "words": 713
+    },
+    "free-seo-tools-for-small-websites": {
+      "backend": "template",
+      "created": "2026-09-27T16:59:00+00:00",
+      "tags": [
+        "seo",
+        "free-api",
+        "github",
+        "open-source"
+      ],
+      "title": "How to Get Free SEO Tools for Small Websites Without Spending a Dollar",
+      "updated": "2026-09-27T16:59:00+00:00",
+      "words": 695
+    },
+    "gemini-api-free-tier-limits": {
+      "backend": "template",
+      "created": "2026-09-27T16:55:37+00:00",
+      "tags": [
+        "free-api",
+        "ai",
+        "llm",
+        "no-key"
+      ],
+      "title": "Gemini API Free Tier Limits: Free Tools, Real Trade-offs",
+      "updated": "2026-09-27T16:55:37+00:00",
+      "words": 699
+    },
+    "python-web-scraping-library": {
+      "backend": "template",
+      "created": "2026-09-27T16:59:52+00:00",
+      "tags": [
+        "scraping",
+        "python",
+        "free-api",
+        "seo"
+      ],
+      "title": "Python Web Scraping Library on a $0 Budget: An Honest Walkthrough",
+      "updated": "2026-09-27T16:59:52+00:00",
+      "words": 676
+    },
+    "telegram-bot-api-free": {
+      "backend": "template",
+      "created": "2026-09-27T16:55:37+00:00",
+      "tags": [
+        "free-api",
+        "social-media",
+        "open-source",
+        "bots"
+      ],
+      "title": "The Complete Guide to Telegram Bot API Free (2026)",
+      "updated": "2026-09-27T16:55:37+00:00",
+      "words": 684
+    }
+  },
+  "processed_keywords": [
+    "telegram bot api free",
+    "free llm api no credit card",
+    "gemini api free tier limits",
+    "free seo tools for small websites",
+    "free custom domain for github pages",
+    "python web scraping library"
+  ],
+  "runs_total": 2,
+  "social_queue": [
+    {
+      "created": "2026-09-27T16:55:37+00:00",
+      "id": "telegram-bot-api-free:published-2026-09-27T16:55:37+00:00",
+      "kind": "published",
+      "post_slug": "telegram-bot-api-free",
+      "social_text": "The Complete Guide to Telegram Bot API Free (2026)\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to telegram bot api free, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Telegram Bot API Free cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-free.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:00+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:00+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:00+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:58:35+00:00",
+          "attempts": 3,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:00+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "The Complete Guide to Telegram Bot API Free (2026)"
+    },
+    {
+      "created": "2026-09-27T16:55:37+00:00",
+      "id": "free-llm-api-no-credit-card:published-2026-09-27T16:55:37+00:00",
+      "kind": "published",
+      "post_slug": "free-llm-api-no-credit-card",
+      "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free llm api no credit card, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:04+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:04+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:04+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:58:39+00:00",
+          "attempts": 3,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:04+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "The Complete Guide to Free LLM API No Credit Card (2026)"
+    },
+    {
+      "created": "2026-09-27T16:55:37+00:00",
+      "id": "gemini-api-free-tier-limits:published-2026-09-27T16:55:37+00:00",
+      "kind": "published",
+      "post_slug": "gemini-api-free-tier-limits",
+      "social_text": "Gemini API Free Tier Limits: Free Tools, Real Trade-offs\n\nHere's the premise: gemini api free tier limits should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the...\n\nGemini API Free Tier Limits: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/gemini-api-free-tier-limits.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:08+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:08+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:08+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:58:43+00:00",
+          "attempts": 3,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:08+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "Gemini API Free Tier Limits: Free Tools, Real Trade-offs"
+    },
+    {
+      "created": "2026-09-27T16:55:37+00:00",
+      "id": "free-llm-api-no-credit-card:updated-2026-09-27T16:55:37+00:00",
+      "kind": "updated",
+      "post_slug": "free-llm-api-no-credit-card",
+      "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:12+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:12+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:12+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:58:47+00:00",
+          "attempts": 3,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:12+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "The Complete Guide to Free LLM API No Credit Card (2026)"
+    },
+    {
+      "created": "2026-09-27T16:59:00+00:00",
+      "id": "free-seo-tools-for-small-websites:published-2026-09-27T16:59:00+00:00",
+      "kind": "published",
+      "post_slug": "free-seo-tools-for-small-websites",
+      "social_text": "How to Get Free SEO Tools for Small Websites Without Spending a Dollar\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free seo tools for small websites, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nFree SEO Tools for Small Websites: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026\n\n#seo #freeapi #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-for-small-websites.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:16+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:16+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:16+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:59:16+00:00",
+          "attempts": 1,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:16+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "How to Get Free SEO Tools for Small Websites Without Spending a Dollar"
+    },
+    {
+      "created": "2026-09-27T16:59:00+00:00",
+      "id": "free-custom-domain-for-github-pages:published-2026-09-27T16:59:00+00:00",
+      "kind": "published",
+      "post_slug": "free-custom-domain-for-github-pages",
+      "social_text": "The Complete Guide to Free Custom Domain for Github Pages (2026)\n\nYou don't need a budget to get good at free custom domain for github pages. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked...\n\nWhat does Free Custom Domain for Github Pages cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source\u2026\n\n#freehosting #hosting #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-for-github-pages.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-09-27T16:59:20+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-09-27T16:59:20+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-09-27T16:59:20+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-09-27T16:59:20+00:00",
+          "attempts": 1,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-09-27T16:59:20+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "The Complete Guide to Free Custom Domain for Github Pages (2026)"
+    },
+    {
+      "created": "2026-09-27T16:59:52+00:00",
+      "id": "python-web-scraping-library:published-2026-09-27T16:59:52+00:00",
+      "kind": "published",
+      "post_slug": "python-web-scraping-library",
+      "social_text": "Python Web Scraping Library on a $0 Budget: An Honest Walkthrough\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to python web scraping library, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nPython Web Scraping Library: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#scraping #python #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/python-web-scraping-library.html",
+      "status": {
+        "bluesky": {
+          "state": "queued"
+        },
+        "discord": {
+          "state": "queued"
+        },
+        "mastodon": {
+          "state": "queued"
+        },
+        "rss": {
+          "state": "queued"
+        },
+        "telegram": {
+          "state": "queued"
+        }
+      },
+      "title": "Python Web Scraping Library on a $0 Budget: An Honest Walkthrough"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,58 @@
+{
+  "at": "2026-09-27T16:58:51+00:00",
+  "site": "The Free Stack",
+  "research_mode": "offline",
+  "researched": 60,
+  "new_keywords": [
+    "free seo tools for small websites",
+    "free custom domain for github pages"
+  ],
+  "published": [
+    "free-seo-tools-for-small-websites",
+    "free-custom-domain-for-github-pages"
+  ],
+  "refreshed": [],
+  "audits": {
+    "free-custom-domain-for-github-pages": 100,
+    "free-llm-api-no-credit-card": 100,
+    "free-seo-tools-for-small-websites": 89,
+    "gemini-api-free-tier-limits": 100,
+    "telegram-bot-api-free": 100
+  },
+  "social": [
+    {
+      "id": "telegram-bot-api-free:published-2026-09-27T16:55:37+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:published-2026-09-27T16:55:37+00:00",
+      "channels": {}
+    },
+    {
+      "id": "gemini-api-free-tier-limits:published-2026-09-27T16:55:37+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-09-27T16:55:37+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-seo-tools-for-small-websites:published-2026-09-27T16:59:00+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-custom-domain-for-github-pages:published-2026-09-27T16:59:00+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    }
+  ],
+  "build": {
+    "pages": 29,
+    "posts": 5,
+    "site_dir": "/home/user/Abhishek-s-Repository-/autopilot-blog/site"
+  },
+  "errors": []
+}
