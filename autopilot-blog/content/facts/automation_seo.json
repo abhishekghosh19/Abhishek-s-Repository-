@@ -1,0 +1,202 @@
+[
+  {
+    "id": "gha-cron",
+    "topic": "GitHub Actions cron",
+    "tags": [
+      "github",
+      "automation",
+      "cron",
+      "free-api"
+    ],
+    "claim": "GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
+    "detail": "A YAML file with a cron expression is a scheduler: the engine wakes up, researches, writes, publishes, and commits the result. Public repos get unlimited minutes, and the same workflow file gives the owner a one-click 'run now' button in the Actions tab.",
+    "steps": [
+      "Add on: schedule: - cron: '17 6 * * *' to a workflow",
+      "Checkout the repo and run the engine in the job",
+      "Commit generated content so the static host deploys it"
+    ],
+    "source_title": "GitHub Docs \u2014 Scheduling a workflow",
+    "source_url": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule",
+    "aliases": [
+      "github actions",
+      "actions",
+      "cron",
+      "ci",
+      "workflow",
+      "scheduled"
+    ]
+  },
+  {
+    "id": "gsc",
+    "topic": "Google Search Console",
+    "tags": [
+      "seo",
+      "free-api",
+      "github"
+    ],
+    "claim": "Google Search Console is free and it is the single most valuable SEO tool there is.",
+    "detail": "Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
+    "steps": [
+      "Add the site property and verify with a DNS TXT record or verification file",
+      "Submit sitemap.xml under Sitemaps",
+      "Check Performance weekly \u2014 note the queries worth writing more about"
+    ],
+    "source_title": "Google Search Console",
+    "source_url": "https://search.google.com/search-console",
+    "aliases": [
+      "google search console",
+      "search console",
+      "webmaster",
+      "google"
+    ]
+  },
+  {
+    "id": "bing-webmaster",
+    "topic": "Bing Webmaster Tools",
+    "tags": [
+      "seo",
+      "free-api"
+    ],
+    "claim": "Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot.",
+    "detail": "Verification is one DNS record, sitemap submission is one click, and you get indexing status plus traffic data for the second-largest engine. Fifteen minutes of setup, zero dollars, meaningful extra reach.",
+    "source_title": "Bing Webmaster Tools",
+    "source_url": "https://www.bing.com/webmasters",
+    "aliases": [
+      "bing",
+      "webmaster",
+      "bing webmaster"
+    ]
+  },
+  {
+    "id": "json-ld",
+    "topic": "JSON-LD structured data",
+    "tags": [
+      "seo",
+      "open-source"
+    ],
+    "claim": "JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is.",
+    "detail": "Marking a post as an Article with author and dates, and marking its FAQ block as a FAQPage, is what powers rich results. It is a machine-readable summary the page already contains \u2014 no service, no cost, and this engine generates it for every post it writes.",
+    "source_title": "Schema.org \u2014 Structured Data",
+    "source_url": "https://schema.org/docs/schemas.html",
+    "aliases": [
+      "schema",
+      "structured data",
+      "schema.org"
+    ]
+  },
+  {
+    "id": "sitemap-xml",
+    "topic": "XML sitemaps",
+    "tags": [
+      "seo"
+    ],
+    "claim": "A sitemap.xml is a free, standard index of your pages that crawlers use to find everything you publish.",
+    "detail": "Each entry is a URL plus last-modified date; search consoles ingest it in seconds. For an autonomous blog it is mandatory plumbing \u2014 every new post must appear in it, and the engine rebuilds it on every publish so it never goes stale.",
+    "source_title": "Sitemaps protocol",
+    "source_url": "https://www.sitemaps.org/protocol.html",
+    "aliases": [
+      "sitemap",
+      "sitemaps",
+      "xml"
+    ]
+  },
+  {
+    "id": "keyword-free",
+    "topic": "Free keyword research",
+    "tags": [
+      "seo",
+      "free-api",
+      "data-api"
+    ],
+    "claim": "You can do real keyword research with free, keyless endpoints \u2014 this blog's own research runs on them.",
+    "detail": "Autocomplete suggestions reveal what people actually type; question-mark queries reveal intent; and cross-source agreement (the same phrase suggested by two of three search engines) is a cheap signal of demand. Pair that with Search Console data once live and you have a keyword pipeline with a zero-dollar budget.",
+    "source_title": "The Free Stack \u2014 keywords module",
+    "source_url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog",
+    "aliases": [
+      "keyword research",
+      "keywords",
+      "autocomplete",
+      "keyword"
+    ]
+  },
+  {
+    "id": "pytrends",
+    "topic": "pytrends",
+    "tags": [
+      "python",
+      "seo",
+      "scraping",
+      "open-source"
+    ],
+    "claim": "pytrends is an open-source Python client for Google Trends \u2014 free programmatic access to interest-over-time data.",
+    "detail": "It wraps the unofficial Trends API, so it can break when Google changes things, but it is the standard way to check whether a topic's interest is rising before you commit the blog to a topic family. Use it as a trend check, not a firehose.",
+    "source_title": "pytrends on PyPI",
+    "source_url": "https://pypi.org/project/pytrends/",
+    "aliases": [
+      "google trends",
+      "trends",
+      "pytrends"
+    ]
+  },
+  {
+    "id": "apscheduler",
+    "topic": "APScheduler",
+    "tags": [
+      "python",
+      "automation",
+      "open-source"
+    ],
+    "claim": "APScheduler is the open-source Python library for scheduling jobs in-process \u2014 cron triggers, intervals, one-liners.",
+    "detail": "If the engine runs on a long-lived box instead of GitHub Actions, APScheduler is the free cron replacement: add a trigger, register a job, run the loop. It is what makes 'the blog wakes up on its own' a single dependency-free file.",
+    "source_title": "APScheduler documentation",
+    "source_url": "https://apscheduler.readthedocs.io/",
+    "aliases": [
+      "scheduler",
+      "scheduling",
+      "cron",
+      "tasks"
+    ]
+  },
+  {
+    "id": "sqlite",
+    "topic": "SQLite",
+    "tags": [
+      "open-source",
+      "python",
+      "data-api"
+    ],
+    "claim": "SQLite is the most deployed database in the world \u2014 free, public domain, and a single file.",
+    "detail": "For a self-hosted stack it removes an entire class of infrastructure: no server process, no connection pool, no backup job (copy the file). Full-text search is built in, which is plenty for a personal content database.",
+    "source_title": "SQLite",
+    "source_url": "https://www.sqlite.org/",
+    "aliases": [
+      "database",
+      "sqlite",
+      "db"
+    ]
+  },
+  {
+    "id": "scraping-polite",
+    "topic": "Polite scraping",
+    "tags": [
+      "python",
+      "scraping",
+      "free-api"
+    ],
+    "claim": "The difference between 'scraping' and 'being blocked' is politeness: identify yourself, rate-limit, and cache.",
+    "detail": "A descriptive User-Agent, a few seconds between requests, honoring robots.txt, and caching responses are the whole etiquette. Most sites allow reasonable personal-use access; the keyless endpoints this engine uses are the same ones the search boxes use, and they reward clients who behave.",
+    "steps": [
+      "Set a descriptive User-Agent with contact info",
+      "Space requests (this engine sleeps between outbound calls)",
+      "Cache results per query \u2014 never re-fetch what you already have"
+    ],
+    "source_title": "W3C \u2014 robots.txt",
+    "source_url": "https://www.robotstxt.org/robotstxt.html",
+    "aliases": [
+      "scraping",
+      "crawler",
+      "spider",
+      "web scraping"
+    ]
+  }
+]

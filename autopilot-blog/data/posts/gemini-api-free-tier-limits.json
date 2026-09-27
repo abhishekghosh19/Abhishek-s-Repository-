@@ -1,0 +1,115 @@
+{
+  "slug": "gemini-api-free-tier-limits",
+  "title": "Gemini API Free Tier Limits: Free Tools, Real Trade-offs",
+  "meta_description": "Gemini API Free Tier Limits: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026",
+  "intro": [
+    "Here's the premise: gemini api free tier limits should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the gotchas we hit.",
+    "We'll walk through Gemini API Free Tier, Openrouter Free Models, Groq Free Tier, and Measure before you optimize \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Gemini API Free Tier",
+      "paragraphs": [
+        "First, the thing that actually matters: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+        "In practice that means: You sign in with a Google account, create a key in AI Studio, and call the models over an OpenAI-compatible endpoint. The free tier's rate limits are more than enough for a blog that writes a few posts a day, and the paid tier is only for when you outgrow the quotas.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [
+        "Create a Google AI Studio API key",
+        "Point any OpenAI-compatible client at the Gemini OpenAI endpoint",
+        "Set LLM_BASE_URL, LLM_API_KEY and LLM_MODEL and this engine writes with it"
+      ],
+      "source": {
+        "title": "Google \u2014 Gemini API rate limits",
+        "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+      }
+    },
+    {
+      "heading": "Openrouter Free Models",
+      "paragraphs": [
+        "Worth spending ten minutes on: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+        "In practice that means: One key, one endpoint, many backends \u2014 you can switch models in a config line and keep the same code. The free models rotate, but the pattern is stable: check the model list, pick the ones marked free, done.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "OpenRouter \u2014 model list and pricing",
+        "url": "https://openrouter.ai/models"
+      }
+    },
+    {
+      "heading": "Groq Free Tier",
+      "paragraphs": [
+        "The foundation looks like this: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+        "Concretely: Llama-family models run on dedicated hardware that makes response times almost embarrassing, and the free tier has enough tokens for a daily content job. It plugs into this engine through the same OpenAI-compatible interface as every other provider.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Groq \u2014 Console and free tier",
+        "url": "https://console.groq.com/"
+      }
+    },
+    {
+      "heading": "Measure before you optimize",
+      "paragraphs": [
+        "Skip the fluff and start here: You cannot improve what you do not measure, and the measurement tools here are all free.",
+        "So what does that look like when you're actually doing it? Search console data, a simple counter in your build log, or raw access logs tell you which pages earn their keep. Ten minutes of reading that data is worth more than an hour of guessing, and none of it requires a paid analytics account.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the real limitations of gemini api free tier limits?",
+      "answer": "The honest answer: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    },
+    {
+      "question": "How much do I need to know before trying gemini api free tier limits?",
+      "answer": "Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "Is gemini api free tier limits actually free?",
+      "answer": "The honest answer: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    }
+  ],
+  "takeaways": [
+    "The whole point in one sentence: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+    "The whole point in one sentence: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+    "The whole point in one sentence: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required."
+  ],
+  "tags": [
+    "free-api",
+    "ai",
+    "llm",
+    "no-key"
+  ],
+  "keywords": [
+    "gemini api free tier limits",
+    "gemini api free tier"
+  ],
+  "sources": [
+    {
+      "title": "Google \u2014 Gemini API rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+    },
+    {
+      "title": "OpenRouter \u2014 model list and pricing",
+      "url": "https://openrouter.ai/models"
+    },
+    {
+      "title": "Groq \u2014 Console and free tier",
+      "url": "https://console.groq.com/"
+    }
+  ],
+  "created": "2026-09-27T16:55:37+00:00",
+  "updated": "2026-09-27T16:55:37+00:00",
+  "backend": "template",
+  "words": 699,
+  "reading_time": 3
+}

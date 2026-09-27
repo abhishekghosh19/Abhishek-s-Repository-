@@ -1,0 +1,75 @@
+name: Blog Autopilot
+
+# The self-updating loop:
+#   1. Daily (or on manual trigger) this workflow runs the blog engine.
+#   2. The engine researches keywords, writes posts, rebuilds the static site
+#      in autopilot-blog/site/ and flushes the social queue.
+#   3. Generated content is committed, which triggers the GitHub Pages deploy
+#      of the same folder — the public blog updates itself.
+#
+# Cost: $0 — GitHub Actions is free for public repos (unlimited minutes).
+# All secrets are OPTIONAL; the engine degrades gracefully without them.
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # 06:17 UTC every day
+  workflow_dispatch:
+    inputs:
+      posts:
+        description: "New posts to publish this run"
+        default: "2"
+        required: false
+      refresh:
+        description: "Oldest posts to self-edit (update)"
+        default: "1"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-autopilot
+  cancel-in-progress: false
+
+jobs:
+  autopilot:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: autopilot-blog
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the blog engine
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: |
+          python -m autopilot run \
+            --posts "${{ github.event.inputs.posts || 2 }}" \
+            --refresh "${{ github.event.inputs.refresh || 1 }}"
+
+      - name: Commit published content (triggers the Pages deploy)
+        run: |
+          git config user.name "blog-autopilot"
+          git config user.email "blog-autopilot@users.noreply.github.com"
+          git add autopilot-blog/data autopilot-blog/site
+          if ! git diff --cached --quiet; then
+            git commit -m "autopilot: new content $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No new content this run."
+          fi

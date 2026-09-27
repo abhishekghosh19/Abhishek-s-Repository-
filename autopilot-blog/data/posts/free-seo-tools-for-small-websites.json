@@ -1,0 +1,115 @@
+{
+  "slug": "free-seo-tools-for-small-websites",
+  "title": "How to Get Free SEO Tools for Small Websites Without Spending a Dollar",
+  "meta_description": "Free SEO Tools for Small Websites: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026",
+  "intro": [
+    "This is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free seo tools for small websites, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.",
+    "We'll walk through Bing Webmaster Tools, Google Search Console, Json-ld Structured Data, and Choose boring technology first \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Bing Webmaster Tools",
+      "paragraphs": [
+        "Start with the basics. Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot.",
+        "So what does that look like when you're actually doing it? Verification is one DNS record, sitemap submission is one click, and you get indexing status plus traffic data for the second-largest engine. Fifteen minutes of setup, zero dollars, meaningful extra reach.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters"
+      }
+    },
+    {
+      "heading": "Google Search Console",
+      "paragraphs": [
+        "Skip the fluff and start here: Google Search Console is free and it is the single most valuable SEO tool there is.",
+        "So what does that look like when you're actually doing it? Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [
+        "Add the site property and verify with a DNS TXT record or verification file",
+        "Submit sitemap.xml under Sitemaps",
+        "Check Performance weekly \u2014 note the queries worth writing more about"
+      ],
+      "source": {
+        "title": "Google Search Console",
+        "url": "https://search.google.com/search-console"
+      }
+    },
+    {
+      "heading": "Json-ld Structured Data",
+      "paragraphs": [
+        "The foundation looks like this: JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is.",
+        "Which, in day-to-day terms, means: Marking a post as an Article with author and dates, and marking its FAQ block as a FAQPage, is what powers rich results. It is a machine-readable summary the page already contains \u2014 no service, no cost, and this engine generates it for every post it writes.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Schema.org \u2014 Structured Data",
+        "url": "https://schema.org/docs/schemas.html"
+      }
+    },
+    {
+      "heading": "Choose boring technology first",
+      "paragraphs": [
+        "Skip the fluff and start here: The best infrastructure for a side project is the least surprising kind: static files, a public repo, a free CDN in front of it.",
+        "In practice that means: Every exotic dependency is a future tax. If a free, open-source tool can serve the job, pick the one with the longest track record and the biggest community, and save the interesting experiments for the parts users actually touch.",
+        "Write down what you change and why \u2014 your future self will thank you."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is free seo tools for small websites actually free?",
+      "answer": "Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "What are the real limitations of free seo tools for small websites?",
+      "answer": "JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "How much do I need to know before trying free seo tools for small websites?",
+      "answer": "Mostly, yes. Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    }
+  ],
+  "takeaways": [
+    "Remember: Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot.",
+    "Google Search Console is free and it is the single most valuable SEO tool there is. That one fact covers most of the confusion around free seo tools for small websites.",
+    "The whole point in one sentence: JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is."
+  ],
+  "tags": [
+    "seo",
+    "free-api",
+    "github",
+    "open-source"
+  ],
+  "keywords": [
+    "free seo tools for small websites",
+    "free seo tools"
+  ],
+  "sources": [
+    {
+      "title": "Bing Webmaster Tools",
+      "url": "https://www.bing.com/webmasters"
+    },
+    {
+      "title": "Google Search Console",
+      "url": "https://search.google.com/search-console"
+    },
+    {
+      "title": "Schema.org \u2014 Structured Data",
+      "url": "https://schema.org/docs/schemas.html"
+    }
+  ],
+  "created": "2026-09-27T16:59:00+00:00",
+  "updated": "2026-09-27T16:59:00+00:00",
+  "backend": "template",
+  "words": 695,
+  "reading_time": 3
+}

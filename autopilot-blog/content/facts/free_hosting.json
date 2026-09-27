@@ -1,0 +1,125 @@
+[
+  {
+    "id": "gh-pages",
+    "topic": "GitHub Pages",
+    "tags": [
+      "github",
+      "free-hosting",
+      "static-sites",
+      "hosting"
+    ],
+    "claim": "GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code.",
+    "detail": "Point Pages at any subdirectory of a repository and GitHub serves it over HTTPS with a built-in URL, custom domain support, and automatic deploys on every push. For a static blog the entire hosting bill is zero, with no server, no DNS glue, and no renewal dates.",
+    "steps": [
+      "Pick a directory (e.g. autopilot-blog/site/) as the site source in repo Settings \u2192 Pages",
+      "Push (or let the engine push) the built HTML and the site deploys in under a minute",
+      "Optionally map a custom domain in the same settings page"
+    ],
+    "source_title": "GitHub Docs \u2014 About custom domains and GitHub Pages",
+    "source_url": "https://docs.github.com/en/pages",
+    "aliases": [
+      "github pages",
+      "pages",
+      "github"
+    ]
+  },
+  {
+    "id": "cf-pages",
+    "topic": "Cloudflare Pages",
+    "tags": [
+      "free-hosting",
+      "static-sites",
+      "hosting",
+      "cdn"
+    ],
+    "claim": "Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request.",
+    "detail": "Connect a Git repo and every branch or PR gets its own preview URL, while the main branch gets a production URL on Cloudflare's network. The free tier covers static sites comfortably and custom domains are supported without a separate CDN bill.",
+    "steps": [
+      "Create a Pages project in the Cloudflare dashboard and link the repo",
+      "Point the build output at the static folder",
+      "Add a custom domain in the project's domains tab"
+    ],
+    "source_title": "Cloudflare \u2014 Pages documentation",
+    "source_url": "https://developers.cloudflare.com/pages/",
+    "aliases": [
+      "cloudflare pages",
+      "cloudflare",
+      "netlify alternative"
+    ]
+  },
+  {
+    "id": "netlify-free",
+    "topic": "Netlify free tier",
+    "tags": [
+      "free-hosting",
+      "static-sites",
+      "hosting"
+    ],
+    "claim": "Netlify's free tier hosts a static site with SSL, CI/CD from Git, forms and generous bandwidth \u2014 no card required.",
+    "detail": "Netlify is the classic pick for static sites: drag a folder in or connect a repo, and it handles builds, redirects, and TLS certificates automatically. The free plan's limits are far beyond what a personal blog ever needs.",
+    "source_title": "Netlify \u2014 Pricing (free plan)",
+    "source_url": "https://www.netlify.com/pricing/",
+    "aliases": [
+      "netlify",
+      "netlify free"
+    ]
+  },
+  {
+    "id": "isa-dev",
+    "topic": "is-a.dev free domains",
+    "tags": [
+      "domains",
+      "github",
+      "free-hosting"
+    ],
+    "claim": "is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site.",
+    "detail": "It is the fastest path from user.github.io/repo to a name that looks like an actual domain. You request the subdomain, add a CNAME record, and the platform handles the certificate. There is no invoice, ever.",
+    "steps": [
+      "Request yourhandle.is-a.dev in the is-a.dev app",
+      "Add the provided CNAME record to your repo's Pages settings",
+      "Wait a few minutes for propagation"
+    ],
+    "source_title": "is-a.dev",
+    "source_url": "https://isa.dev/",
+    "aliases": [
+      "is-a.dev",
+      "isadev",
+      "github pages",
+      "free domain"
+    ]
+  },
+  {
+    "id": "eu-org",
+    "topic": "eu.org free subdomains",
+    "tags": [
+      "domains"
+    ],
+    "claim": "eu.org has offered free subdomains to anyone for decades \u2014 the oldest free-domain project still around.",
+    "detail": "The catch is patience: the application is manual and approval can take days to weeks, and inactive domains get reclaimed. For projects that can wait, it is a genuinely free, transferable subdomain.",
+    "source_title": "eu.org \u2014 Free subdomains",
+    "source_url": "https://eu.org/",
+    "aliases": [
+      "eu.org",
+      "free subdomain"
+    ]
+  },
+  {
+    "id": "static-cheap",
+    "topic": "Why static hosting is free",
+    "tags": [
+      "static-sites",
+      "hosting",
+      "free-hosting"
+    ],
+    "claim": "Static sites are cheap to host because there is no server to keep awake \u2014 which is why so many hosts give the tier away.",
+    "detail": "Files are cached at edge nodes and served from memory; there is no database, no runtime, no scaling. When the marginal cost of serving a page approaches zero, hosting becomes a feature to win signups \u2014 and that is the deal a personal blog gets to keep.",
+    "source_title": "Cloudflare \u2014 Static content caching",
+    "source_url": "https://developers.cloudflare.com/cache/",
+    "aliases": [
+      "static",
+      "cdn",
+      "edge",
+      "static sites"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# The Free Stack — an autonomous blog. All content is generated for public consumption.
+User-agent: *
+Allow: /
+
+Sitemap: https://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/sitemap.xml
