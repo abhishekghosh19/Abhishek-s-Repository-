@@ -1,0 +1,7 @@
+strategy,expected_fraction_of_original_states_retained,mc_mean_fraction_retained,mc_p05_fraction_retained,mc_p95_fraction_retained,state_bits_in_toy_network,network_trials,horizon_years,assumption
+no_maintenance,0.9990004948383437,0.9989820999999991,0.9984,0.9995,10000,1000,100,illustrative independent damage; no correction
+in_place_repair_99pct,0.9999900000495051,0.9999905000000014,0.9999,1.0,10000,1000,100,assumes original state is locally recoverable
+replacement_map_fidelity_0.5,0.0009755864207405703,0.0009671999999999997,0.0005,0.0015,10000,1000,100,each transfer has independent per-state mapping error
+replacement_map_fidelity_0.99,0.9034781404567244,0.9036761000000001,0.8989,0.908505,10000,1000,100,each transfer has independent per-state mapping error
+replacement_map_fidelity_0.999,0.9890553252417073,0.9890486999999998,0.9872,0.9908,10000,1000,100,each transfer has independent per-state mapping error
+replacement_map_fidelity_0.9999,0.9980019437738689,0.9979870999999985,0.9972,0.9987,10000,1000,100,each transfer has independent per-state mapping error

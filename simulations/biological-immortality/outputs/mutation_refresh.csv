@@ -1,0 +1,5 @@
+ideal_archive_refresh_interval_years,mean_current_mutation_count_across_lineage_years,mean_current_mutation_count_at_year_100,p95_current_mutation_count_at_year_100,lineages,horizon_years,assumed_mutation_events_per_lineage_year
+never,2021.1597599999996,4001.978,4115.0,500,100,40.0
+50,1019.6527600000003,1997.778,2065.1,500,100,40.0
+10,219.7847,399.806,436.0,500,100,40.0
+1,39.99873999999999,40.48,51.0,500,100,40.0
