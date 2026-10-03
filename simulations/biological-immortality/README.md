@@ -1,7 +1,7 @@
 # Biological-maintenance simulations
 
 - [Complete report: solution architecture, experiment plans, simulation results and conclusions](report.md)
-- [Public web edition](https://abhishekghosh19.github.io/Abhishek-s-Repository-/)
+- GitHub Pages edition: ready to deploy, pending one-time activation at [repository Pages settings](https://github.com/abhishekghosh19/Abhishek-s-Repository-/settings/pages); intended URL: `https://abhishekghosh19.github.io/Abhishek-s-Repository-/`
 - [Detailed simulation output tables](outputs/results.md)
 - [Preprint and journal-submission preparation package](publication-package.md)
 

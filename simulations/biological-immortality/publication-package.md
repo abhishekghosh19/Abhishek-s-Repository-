@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Not submitted; not peer reviewed; no external preprint DOI has been issued.** The report is now merged into the public GitHub repository and is being prepared for a companion GitHub Pages edition. The repository license is CC0 1.0; the responsible human author should confirm that the public-domain dedication fits the intended deposit and any journal's terms.
+**Not submitted; not peer reviewed; no external preprint DOI has been issued.** The report is merged into the public GitHub repository. The Pages workflow is also merged, but the site is not live: the first deployment failed because Pages has not been enabled for the repository. A repository owner must select **Settings → Pages → Build and deployment → Source: GitHub Actions** and then rerun the Pages workflow. The repository license is CC0 1.0; the responsible human author should confirm that the public-domain dedication fits the intended deposit and any journal's terms.
 
 The manuscript is best framed as a **Perspective / research synthesis**, not as original experimental research. It is not a systematic review: the report does not document a reproducible database search, screening protocol or risk-of-bias assessment. Its simulations are illustrative toy models, not validated biological or demographic forecasts. The public version must be disclosed to any repository or journal, and the target venue's preprint/previous-dissemination policy must be checked.
 

@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
+      # One-time repository-owner setup: Settings > Pages > Source: GitHub Actions.
+      # configure-pages can deploy only after that Pages site has been enabled.
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Add the canonical report and outputs to the Jekyll source
