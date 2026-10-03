@@ -6,7 +6,7 @@
 
 **[Plausible]** A future system combining screened cell renewal, targeted DNA correction, cancer surveillance and neuronal maintenance might greatly extend healthspan. **[Speculative]** That system could keep age-related failure rates low enough for very long life. It would not establish literal immortality: if an irreversible endogenous failure has any constant residual rate λ, the probability of avoiding it for time T is exp(−λT), which approaches zero as T grows without bound. This is a mathematical consequence of the assumption λ>0, not an estimate of any human risk.
 
-This report uses “biological immortality” in the strict sense requested: the same biological brain remains, with no age-related irreversible functional decline; uploading or emulation does not count. This is distinct from invulnerability to accidents or infection. Probability estimates below are subjective forecasts of a credible human-grade maintenance platform, not probabilities that a person will live forever.
+“Biological immortality” here means preserving the same biological brain without irreversible age-related decline; uploading/emulation do not count. This differs from invulnerability to accidents or infection. Forecasts concern a human-grade maintenance platform—not living forever.
 
 Labels distinguish evidence: **[Established]** direct evidence; **[Plausible]** extrapolation consistent with biology; **[Speculative]** proposed or unvalidated; **[Contradicted]** too-strong wording or premise.
 
@@ -74,9 +74,9 @@ If a neuron cannot be rescued, an exploratory fallback is “overlap-and-transfe
 
 **[Speculative]** The modules fit together as selective maintenance: screened cell reserves support renewal; telomere maintenance is restricted to screened renewing lineages; neurons are preserved in place wherever possible. This may reduce the need to make every cell divide indefinitely. Conflicts remain: telomerase could help a mutation-bearing clone persist; editing or reprogramming could create new errors; and neuronal replacement could preserve a task while altering the original circuit state. AI could prioritize measurements, but it cannot certify that every cell or failure mode has been observed.
 
-- **2026–2036 — [Speculative].** Test gated TERT, mutation surveillance and neuronal rejuvenation in organoids and animal models. Go only if renewal/function improves without reproducible malignant escape, genomic instability or loss of memory specificity.
-- **2036–2076 — [Speculative].** If those tests pass, pursue organ-specific approaches and disease-focused clinical studies with long-term follow-up—not whole-body immortality claims.
-- **2076 onward — [Speculative].** Combine modules only after independent safety and function data. Even decades of follow-up cannot prove infinite maintenance.
+- **2026–2036 — [Speculative].** Test gated TERT, mutation surveillance and neuronal rejuvenation in organoids/animals; proceed only without malignant escape, genomic instability or memory loss.
+- **2036–2076 — [Speculative].** Conditional organ-specific clinical studies with long-term follow-up, not whole-body immortality claims.
+- **2076 onward — [Speculative].** Combine only after independent safety/function evidence; decades of follow-up cannot prove infinite maintenance.
 
 ## 5. Feasibility and forecasts
 
@@ -135,15 +135,23 @@ With three independent failure channels each at a hypothetical 10⁻⁴/year, th
 
 **Interpretation:** repeated imperfect copying compounds, while repair in place avoids a full remapping step in this deliberately simplified model. Actual brains have distributed representations and plasticity, which this model omits; it says nothing quantitative about human memory or identity.
 
-## 7. Pre-mortem: ten plausible failure modes
+## 7. Maximum lifespan: what research and these simulations can say
 
-**[Speculative]** The integrated project could fail because: (1) an undetected clone gains advantage after TERT; (2) ALT bypasses surveillance; (3) a safety switch misses targets or destroys healthy cells; (4) the “young” archive already contains harmful mosaicism; (5) editing creates collateral genomic damage; (6) stem-cell lines drift epigenetically; (7) replacement tissue fails to integrate with vasculature or nerves; (8) neuronal reprogramming alters identity or memory; (9) neural damage is detected only after irreversibility; or (10) monitoring, treatment supply or governance fails over time.
+**[Established]** Jeanne Calment’s verified record is 122 years, 164 days; it is not a proven biological ceiling ([Guinness](https://www.guinnessworldrecords.com/world-records/oldest-person)). **[Contested]** Dong et al. argued that extreme-age survival gains had stalled ([2016, *Nature*](https://doi.org/10.1038/nature19793)); Barbi et al. found mortality approximately level after 105 in 3,836 documented Italian cases ([2018, *Science*](https://doi.org/10.1126/science.aat3119)). A mortality plateau is not immortality.
 
-## 8. Ethics and governance
+**[Speculative forecasts, not bounds]** Pearce and Raftery estimated >99% probability of breaking the record by 2100, with 89%, 44% and 13% probabilities of someone reaching at least 126, 128 and 130, respectively ([2021](https://doi.org/10.4054/demres.2021.44.52)). Pyrkov et al. extrapolated a loss of physiological resilience at 120–150 years from biomarkers; this is not an observed or settled limit ([2021](https://doi.org/10.1038/s41467-021-23014-1)).
 
-**[Plausible governance proposals]** Neural interventions need explicit, revisable consent, advance directives and stopping rules. Do not equate a better behavioural score with preserved identity. Require independent review, public adverse-event reporting and long-term follow-up before systemic trials; prohibit pay-to-play use of unvalidated interventions. Plan openly for unequal access and resource demand without coercive population policies. Keep somatic maintenance distinct from heritable germline modification.
+**[Established] Conclusion:** no consensus establishes a maximum possible lifespan. Our simulations do **not** estimate one: they use hypothetical hazards, mutation counts and abstract neural-state errors, not age-specific human mortality data.
 
-## 9. Open questions and falsifiable predictions
+## 8. Pre-mortem: ten plausible failure modes
+
+**[Speculative]** Failure modes: (1) TERT lets an undetected clone expand; (2) ALT evades surveillance; (3) safety switches miss targets or kill healthy cells; (4) archive mosaicism; (5) editing causes collateral damage; (6) epigenetic drift; (7) failed tissue integration; (8) neuronal treatment alters memory or identity; (9) late detection; or (10) monitoring, supply or governance failure.
+
+## 9. Ethics and governance
+
+**[Plausible governance proposals]** Neural interventions need revisable consent, advance directives and stopping rules; better behavioural scores do not prove identity preservation. Require independent review, adverse-event reporting and long-term follow-up before systemic trials; prohibit pay-to-play unvalidated interventions. Plan for unequal access and resource demand without coercive population policies, and keep somatic maintenance distinct from germline modification.
+
+## 10. Open questions and falsifiable predictions
 
 - **[Open question]** Can surveillance eliminate abnormal clones before they gain a clinically meaningful advantage, including ALT clones?
 - **[Open question]** Which accumulating mutations actually impair tissue function, rather than simply marking lineage history?
