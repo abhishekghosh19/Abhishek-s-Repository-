@@ -1,5 +1,8 @@
 # Biological-maintenance simulations
 
+- [Complete report: solution architecture, experiment plans, simulation results and conclusions](report.md)
+- [Detailed simulation output tables](outputs/results.md)
+
 This folder contains reproducible **toy simulations and thought experiments** for the three barriers discussed in the research response:
 
 1. residual cancer / endogenous failure risk over long horizons, plus an independent clone-detection thought experiment;
