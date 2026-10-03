@@ -1,0 +1,8 @@
+title: Biological Maintenance
+description: A research synthesis and illustrative simulations on long-term biological maintenance.
+url: https://abhishekghosh19.github.io
+baseurl: /Abhishek-s-Repository-
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty

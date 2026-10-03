@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="color-scheme" content="light">
+    <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark" aria-hidden="true">BM</span>
+          <span>BIOLOGICAL MAINTENANCE<small>RESEARCH NOTE</small></span>
+        </a>
+        <a class="nav-link" href="{{ '/biological-immortality/' | relative_url }}">Read the report <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Evidence-linked research synthesis with illustrative, non-predictive simulations.</p>
+      <div class="footer-links">
+        <a href="https://github.com/abhishekghosh19/Abhishek-s-Repository-/">Source repository</a>
+        <a href="https://github.com/abhishekghosh19/Abhishek-s-Repository-/blob/main/simulations/biological-immortality/README.md">Code and simulation notes</a>
+      </div>
+      <p class="fine-print">Not clinical advice, peer-reviewed research, or evidence that biological immortality is achievable.</p>
+    </footer>
+  </body>
+</html>

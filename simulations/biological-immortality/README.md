@@ -1,7 +1,9 @@
 # Biological-maintenance simulations
 
 - [Complete report: solution architecture, experiment plans, simulation results and conclusions](report.md)
+- [Public web edition](https://abhishekghosh19.github.io/Abhishek-s-Repository-/)
 - [Detailed simulation output tables](outputs/results.md)
+- [Preprint and journal-submission preparation package](publication-package.md)
 
 This folder contains reproducible **toy simulations and thought experiments** for the three barriers discussed in the research response:
 
