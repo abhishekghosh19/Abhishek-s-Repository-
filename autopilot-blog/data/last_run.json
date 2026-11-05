@@ -1,22 +1,27 @@
 {
-  "at": "2026-09-27T16:58:51+00:00",
+  "at": "2026-11-05T14:44:10+00:00",
   "site": "The Free Stack",
-  "research_mode": "offline",
+  "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free seo tools for small websites",
-    "free custom domain for github pages"
+    "self hosted rss feed",
+    "free seo tools for youtube"
   ],
   "published": [
-    "free-seo-tools-for-small-websites",
-    "free-custom-domain-for-github-pages"
+    "self-hosted-rss-feed",
+    "free-seo-tools-for-youtube"
   ],
-  "refreshed": [],
+  "refreshed": [
+    "free-seo-tools-for-youtube"
+  ],
   "audits": {
     "free-custom-domain-for-github-pages": 100,
     "free-llm-api-no-credit-card": 100,
     "free-seo-tools-for-small-websites": 89,
+    "free-seo-tools-for-youtube": 100,
     "gemini-api-free-tier-limits": 100,
+    "python-web-scraping-library": 100,
+    "self-hosted-rss-feed": 100,
     "telegram-bot-api-free": 100
   },
   "social": [
@@ -38,21 +43,41 @@
     },
     {
       "id": "free-seo-tools-for-small-websites:published-2026-09-27T16:59:00+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-custom-domain-for-github-pages:published-2026-09-27T16:59:00+00:00",
+      "channels": {}
+    },
+    {
+      "id": "python-web-scraping-library:published-2026-09-27T16:59:52+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-custom-domain-for-github-pages:published-2026-09-27T16:59:00+00:00",
+      "id": "self-hosted-rss-feed:published-2026-11-05T14:44:23+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-seo-tools-for-youtube:published-2026-11-05T14:44:23+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-seo-tools-for-youtube:updated-2026-11-05T14:44:23+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 29,
-    "posts": 5,
-    "site_dir": "/home/user/Abhishek-s-Repository-/autopilot-blog/site"
+    "pages": 39,
+    "posts": 8,
+    "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
 }

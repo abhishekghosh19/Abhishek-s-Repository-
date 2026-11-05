@@ -1,0 +1,115 @@
+{
+  "slug": "self-hosted-rss-feed",
+  "title": "How to Get Self Hosted RSS Feed Without Spending a Dollar",
+  "meta_description": "Self Hosted RSS Feed: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026",
+  "intro": [
+    "Let's be honest: the internet is full of posts that pretend self hosted rss feed is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that quietly become $20/month. That's what this post digs into.",
+    "We'll walk through RSS Feeds, Freshrss, Miniflux, and Choose boring technology first \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "RSS Feeds",
+      "paragraphs": [
+        "First, the thing that actually matters: RSS is the only social channel that is free by definition: it is a file on your own host that readers pull.",
+        "Concretely: No account, no algorithm, no API change cycle. Every serious reader tool \u2014 Feedly's free tier, FreshRSS, Miniflux, NetNewsWire \u2014 speaks the same 2001 standard. For an autonomous blog, the feed is both the distribution channel and the canonical record of what was published.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "W3C \u2014 RSS 2.0 specification",
+        "url": "https://www.rssboard.org/rss-specification/"
+      }
+    },
+    {
+      "heading": "Freshrss",
+      "paragraphs": [
+        "First, the thing that actually matters: FreshRSS is a self-hosted RSS reader written in PHP \u2014 the classic free way to own your feed reading.",
+        "Concretely: Install it on any PHP host or in a container, add your feeds (this blog's feed.xml included), and you have a reader with no ads, no trial, and no account. Full-text mode, tags and sharing make it a daily driver, not a toy.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [
+        "Run the Docker image or clone the repo onto a PHP host",
+        "Complete the web installer and add feed URLs",
+        "Read, tag and archive at your own pace"
+      ],
+      "source": {
+        "title": "FreshRSS",
+        "url": "https://freshrss.org/"
+      }
+    },
+    {
+      "heading": "Miniflux",
+      "paragraphs": [
+        "Skip the fluff and start here: Miniflux is a minimalist, high-performance self-hosted RSS reader in a single Go binary.",
+        "The upshot: One static binary and a database \u2014 SQLite works for one reader. It is fast, stable, and its whole feature set fits on a screen. For an automation-focused blog owner, it pairs naturally: the blog publishes to feed.xml, Miniflux reads it.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Miniflux",
+        "url": "https://miniflux.app/"
+      }
+    },
+    {
+      "heading": "Choose boring technology first",
+      "paragraphs": [
+        "The foundation looks like this: The best infrastructure for a side project is the least surprising kind: static files, a public repo, a free CDN in front of it.",
+        "The upshot: Every exotic dependency is a future tax. If a free, open-source tool can serve the job, pick the one with the longest track record and the biggest community, and save the interesting experiments for the parts users actually touch.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is self hosted rss feed actually free?",
+      "answer": "Mostly, yes. FreshRSS is a self-hosted RSS reader written in PHP \u2014 the classic free way to own your feed reading. Keyless public endpoints can get throttled if you hammer them, so batch your requests and cache what you fetch."
+    },
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "Mostly, yes. RSS is the only social channel that is free by definition: it is a file on your own host that readers pull. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    },
+    {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "Mostly, yes. RSS is the only social channel that is free by definition: it is a file on your own host that readers pull. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    }
+  ],
+  "takeaways": [
+    "RSS is the only social channel that is free by definition: it is a file on your own host that readers pull. That one fact covers most of the confusion around self hosted rss feed.",
+    "Don't forget \u2014 FreshRSS is a self-hosted RSS reader written in PHP \u2014 the classic free way to own your feed reading.",
+    "Miniflux is a minimalist, high-performance self-hosted RSS reader in a single Go binary. That one fact covers most of the confusion around self hosted rss feed."
+  ],
+  "tags": [
+    "self-host",
+    "rss",
+    "open-source"
+  ],
+  "keywords": [
+    "self hosted rss feed",
+    "self hosted rss reader",
+    "self hosted rss reader reddit"
+  ],
+  "sources": [
+    {
+      "title": "W3C \u2014 RSS 2.0 specification",
+      "url": "https://www.rssboard.org/rss-specification/"
+    },
+    {
+      "title": "FreshRSS",
+      "url": "https://freshrss.org/"
+    },
+    {
+      "title": "Miniflux",
+      "url": "https://miniflux.app/"
+    }
+  ],
+  "created": "2026-11-05T14:44:23+00:00",
+  "updated": "2026-11-05T14:44:23+00:00",
+  "backend": "template",
+  "words": 687,
+  "reading_time": 3
+}

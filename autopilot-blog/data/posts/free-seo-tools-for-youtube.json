@@ -1,0 +1,117 @@
+{
+  "slug": "free-seo-tools-for-youtube",
+  "title": "Free SEO Tools for Youtube: Free Tools, Real Trade-offs",
+  "meta_description": "Free SEO Tools for Youtube: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026",
+  "intro": [
+    "You don't need a budget to get good at free seo tools for youtube. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the same engine that publishes this blog.",
+    "We'll walk through Bing Webmaster Tools, Json-ld Structured Data, Google Search Console, and Automate the boring parts \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Bing Webmaster Tools",
+      "paragraphs": [
+        "First, the thing that actually matters: Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot.",
+        "In practice that means: Verification is one DNS record, sitemap submission is one click, and you get indexing status plus traffic data for the second-largest engine. Fifteen minutes of setup, zero dollars, meaningful extra reach.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Bing Webmaster Tools",
+        "url": "https://www.bing.com/webmasters"
+      }
+    },
+    {
+      "heading": "Json-ld Structured Data",
+      "paragraphs": [
+        "Worth spending ten minutes on: JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is.",
+        "In other words: Marking a post as an Article with author and dates, and marking its FAQ block as a FAQPage, is what powers rich results. It is a machine-readable summary the page already contains \u2014 no service, no cost, and this engine generates it for every post it writes.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Schema.org \u2014 Structured Data",
+        "url": "https://schema.org/docs/schemas.html"
+      }
+    },
+    {
+      "heading": "Google Search Console",
+      "paragraphs": [
+        "Skip the fluff and start here: Google Search Console is free and it is the single most valuable SEO tool there is.",
+        "In other words: Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [
+        "Add the site property and verify with a DNS TXT record or verification file",
+        "Submit sitemap.xml under Sitemaps",
+        "Check Performance weekly \u2014 note the queries worth writing more about"
+      ],
+      "source": {
+        "title": "Google Search Console",
+        "url": "https://search.google.com/search-console"
+      }
+    },
+    {
+      "heading": "Automate the boring parts",
+      "paragraphs": [
+        "First, the thing that actually matters: Anything you do twice by hand should become a script. That's the entire discipline of free automation.",
+        "Which, in day-to-day terms, means: A cron expression, a webhook, or a scheduled workflow costs nothing to run and buys back an hour every week. Start with one small automation \u2014 a nightly backup, a feed check, a deploy on push \u2014 and add more only when the first one proves itself.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much do I need to know before trying free seo tools for youtube?",
+      "answer": "JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "Is free seo tools for youtube actually free?",
+      "answer": "Less than you'd think. Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot. Start there and only add pieces when you feel actual pain."
+    },
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "Google Search Console is free and it is the single most valuable SEO tool there is. Treat that as the working assumption and re-check the docs once a quarter."
+    }
+  ],
+  "takeaways": [
+    "Don't forget \u2014 Bing Webmaster Tools is the free, often-overlooked sibling of Search Console \u2014 and Bing's index is also used by Copilot.",
+    "Don't forget \u2014 Google Search Console is free and it is the single most valuable SEO tool there is.",
+    "Don't forget \u2014 JSON-LD structured data (Schema.org) is a free standard that tells search engines exactly what your page is."
+  ],
+  "tags": [
+    "seo",
+    "free-api",
+    "github",
+    "open-source"
+  ],
+  "keywords": [
+    "free seo tools for youtube",
+    "free seo tools",
+    "free seo tools for etsy"
+  ],
+  "sources": [
+    {
+      "title": "Bing Webmaster Tools",
+      "url": "https://www.bing.com/webmasters"
+    },
+    {
+      "title": "Schema.org \u2014 Structured Data",
+      "url": "https://schema.org/docs/schemas.html"
+    },
+    {
+      "title": "Google Search Console",
+      "url": "https://search.google.com/search-console"
+    }
+  ],
+  "created": "2026-11-05T14:44:23+00:00",
+  "updated": "2026-11-05T14:44:23+00:00",
+  "backend": "template+refresh",
+  "words": 659,
+  "reading_time": 3,
+  "updated_count": 1
+}
