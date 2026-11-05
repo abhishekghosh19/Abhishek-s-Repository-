@@ -66,10 +66,12 @@ jobs:
         run: |
           git config user.name "blog-autopilot"
           git config user.email "blog-autopilot@users.noreply.github.com"
-          git add autopilot-blog/data autopilot-blog/site
+          # Paths are relative to the job's working-directory (autopilot-blog/).
+          git add data site
           if ! git diff --cached --quiet; then
             git commit -m "autopilot: new content $(date -u +%Y-%m-%d)"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
           else
             echo "No new content this run."
           fi
