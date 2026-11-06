@@ -1,0 +1,117 @@
+{
+  "slug": "notion-alternative-open-source-self-hosted",
+  "title": "Notion Alternative Open Source Self Hosted: A Practical Field Guide",
+  "meta_description": "What does Notion Alternative Open Source Self Hosted cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source\u2026",
+  "intro": [
+    "If you've been searching for notion alternative open source self hosted, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago. This one is built to stay useful, and it's maintained automatically.",
+    "We'll walk through Appflowy, Affine, Activepieces, and N8n Workflow Automation \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Appflowy",
+      "paragraphs": [
+        "Skip the fluff and start here: AppFlowy is an open-source Notion alternative you can run locally or self-host, free.",
+        "So what does that look like when you're actually doing it? Documents, databases, kanban and wiki-style workspaces, with data stored where you choose \u2014 local files or your own server. It is the standard answer to 'Notion but open source', and it is genuinely maintained.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "AppFlowy",
+        "url": "https://appflowy.com/"
+      }
+    },
+    {
+      "heading": "Affine",
+      "paragraphs": [
+        "Skip the fluff and start here: Affine is another open-source Notion/Miro hybrid: documents, edgeless canvas, and self-hosting in the community edition.",
+        "In practice that means: It leans into 'everything is a block' and lets the same content be a doc or a whiteboard. Self-hosting runs through Docker Compose, and the community edition's free tier is generous for individuals and small teams.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Affine",
+        "url": "https://affine.pro/"
+      }
+    },
+    {
+      "heading": "Activepieces",
+      "paragraphs": [
+        "The short version: Activepieces is an open-source automation platform \u2014 a genuine free alternative to Zapier and Make.",
+        "So what does that look like when you're actually doing it? You build visual flows or write pieces in TypeScript, and it runs self-hosted under a license that allows free personal and commercial use. Like n8n it turns 'I do this manually twice a week' into a node on a canvas.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Activepieces",
+        "url": "https://www.activepieces.com/"
+      }
+    },
+    {
+      "heading": "N8n Workflow Automation",
+      "paragraphs": [
+        "Here's the part most people get wrong. n8n is a workflow automation tool in the spirit of Zapier that you can self-host for free.",
+        "Which, in day-to-day terms, means: It is fair-code (not strictly open source, which the project is upfront about) and runs entirely on your own machine with a Docker container. The free personal use is unlimited; teams pay only when they outgrow the hobby tier. For a blog it handles the glue: fetch, transform, publish, notify.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "n8n",
+        "url": "https://n8n.io/"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "Mostly, yes. Affine is another open-source Notion/Miro hybrid: documents, edgeless canvas, and self-hosting in the community edition. Keyless public endpoints can get throttled if you hammer them, so batch your requests and cache what you fetch."
+    },
+    {
+      "question": "Is notion alternative open source self hosted actually free?",
+      "answer": "Affine is another open-source Notion/Miro hybrid: documents, edgeless canvas, and self-hosting in the community edition. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "Mostly, yes. n8n is a workflow automation tool in the spirit of Zapier that you can self-host for free. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    }
+  ],
+  "takeaways": [
+    "Don't forget \u2014 AppFlowy is an open-source Notion alternative you can run locally or self-host, free.",
+    "Affine is another open-source Notion/Miro hybrid: documents, edgeless canvas, and self-hosting in the community edition. That one fact covers most of the confusion around notion alternative open source self hosted.",
+    "The whole point in one sentence: n8n is a workflow automation tool in the spirit of Zapier that you can self-host for free.",
+    "Remember: Activepieces is an open-source automation platform \u2014 a genuine free alternative to Zapier and Make."
+  ],
+  "tags": [
+    "open-source",
+    "self-host",
+    "productivity",
+    "automation"
+  ],
+  "keywords": [
+    "notion alternative open source self hosted",
+    "open source notion alternative",
+    "open source notion alternative self hosted"
+  ],
+  "sources": [
+    {
+      "title": "AppFlowy",
+      "url": "https://appflowy.com/"
+    },
+    {
+      "title": "Affine",
+      "url": "https://affine.pro/"
+    },
+    {
+      "title": "Activepieces",
+      "url": "https://www.activepieces.com/"
+    },
+    {
+      "title": "n8n",
+      "url": "https://n8n.io/"
+    }
+  ],
+  "created": "2026-11-06T14:23:02+00:00",
+  "updated": "2026-11-06T14:23:02+00:00",
+  "backend": "template",
+  "words": 638,
+  "reading_time": 3
+}
