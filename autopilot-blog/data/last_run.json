@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-06T14:22:44+00:00",
+  "at": "2026-11-07T13:12:48+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free google hosting for static sites",
-    "notion alternative open source self hosted"
+    "free seo tools ai",
+    "free llm api github"
   ],
   "published": [
-    "free-google-hosting-for-static-sites",
-    "notion-alternative-open-source-self-hosted"
+    "free-seo-tools-ai",
+    "free-llm-api-github"
   ],
   "refreshed": [
     "telegram-bot-api-free"
@@ -17,7 +17,9 @@
   "audits": {
     "free-custom-domain-for-github-pages": 100,
     "free-google-hosting-for-static-sites": 100,
+    "free-llm-api-github": 100,
     "free-llm-api-no-credit-card": 100,
+    "free-seo-tools-ai": 100,
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-youtube": 100,
     "gemini-api-free-tier-limits": 100,
@@ -69,26 +71,38 @@
     },
     {
       "id": "free-google-hosting-for-static-sites:published-2026-11-06T14:23:02+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "notion-alternative-open-source-self-hosted:published-2026-11-06T14:23:02+00:00",
+      "channels": {}
+    },
+    {
+      "id": "telegram-bot-api-free:updated-2026-11-06T14:23:02+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-seo-tools-ai:published-2026-11-07T13:13:15+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "telegram-bot-api-free:updated-2026-11-06T14:23:02+00:00",
+      "id": "free-llm-api-github:published-2026-11-07T13:13:15+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "telegram-bot-api-free:updated-2026-11-07T13:13:15+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 46,
-    "posts": 10,
+    "pages": 50,
+    "posts": 12,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
