@@ -113,9 +113,9 @@
     }
   ],
   "created": "2026-09-27T16:55:37+00:00",
-  "updated": "2026-09-27T16:55:37+00:00",
-  "backend": "template+refresh",
+  "updated": "2026-11-08T13:33:47+00:00",
+  "backend": "template+refresh+refresh",
   "words": 699,
   "reading_time": 3,
-  "updated_count": 1
+  "updated_count": 2
 }
