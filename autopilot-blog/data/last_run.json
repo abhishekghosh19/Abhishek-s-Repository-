@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-08T13:33:33+00:00",
+  "at": "2026-11-09T16:31:20+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "telegram bot api key",
-    "telegram bot api python"
+    "free llm api github repo",
+    "free llm api resources github"
   ],
   "published": [
-    "telegram-bot-api-key",
-    "telegram-bot-api-python"
+    "free-llm-api-github-repo",
+    "free-llm-api-resources-github"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
@@ -17,8 +17,10 @@
   "audits": {
     "free-custom-domain-for-github-pages": 100,
     "free-google-hosting-for-static-sites": 100,
+    "free-llm-api-github-repo": 100,
     "free-llm-api-github": 100,
     "free-llm-api-no-credit-card": 100,
+    "free-llm-api-resources-github": 100,
     "free-seo-tools-ai": 100,
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-youtube": 100,
@@ -97,26 +99,38 @@
     },
     {
       "id": "telegram-bot-api-key:published-2026-11-08T13:33:47+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "telegram-bot-api-python:published-2026-11-08T13:33:47+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-08T13:33:47+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-github-repo:published-2026-11-09T16:31:40+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-08T13:33:47+00:00",
+      "id": "free-llm-api-resources-github:published-2026-11-09T16:31:40+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-09T16:31:40+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 56,
-    "posts": 14,
+    "pages": 60,
+    "posts": 16,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
