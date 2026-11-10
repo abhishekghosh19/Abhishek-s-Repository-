@@ -1,20 +1,22 @@
 {
-  "at": "2026-11-09T16:31:20+00:00",
+  "at": "2026-11-10T14:58:33+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free llm api github repo",
-    "free llm api resources github"
+    "free api for developers github",
+    "free custom domain email hosting"
   ],
   "published": [
-    "free-llm-api-github-repo",
-    "free-llm-api-resources-github"
+    "free-api-for-developers-github",
+    "free-custom-domain-email-hosting"
   ],
   "refreshed": [
-    "free-llm-api-no-credit-card"
+    "free-llm-api-resources-github"
   ],
   "audits": {
+    "free-api-for-developers-github": 100,
+    "free-custom-domain-email-hosting": 89,
     "free-custom-domain-for-github-pages": 100,
     "free-google-hosting-for-static-sites": 100,
     "free-llm-api-github-repo": 100,
@@ -111,26 +113,38 @@
     },
     {
       "id": "free-llm-api-github-repo:published-2026-11-09T16:31:40+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-llm-api-resources-github:published-2026-11-09T16:31:40+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-09T16:31:40+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-api-for-developers-github:published-2026-11-10T14:58:52+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-09T16:31:40+00:00",
+      "id": "free-custom-domain-email-hosting:published-2026-11-10T14:58:52+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-resources-github:updated-2026-11-10T14:58:52+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 60,
-    "posts": 16,
+    "pages": 64,
+    "posts": 18,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
