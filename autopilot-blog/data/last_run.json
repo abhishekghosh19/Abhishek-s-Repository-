@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-10T14:58:33+00:00",
+  "at": "2026-11-11T14:29:25+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free api for developers github",
-    "free custom domain email hosting"
+    "free llm api resources",
+    "telegram bot api token"
   ],
   "published": [
-    "free-api-for-developers-github",
-    "free-custom-domain-email-hosting"
+    "free-llm-api-resources",
+    "telegram-bot-api-token"
   ],
   "refreshed": [
-    "free-llm-api-resources-github"
+    "free-llm-api-no-credit-card"
   ],
   "audits": {
     "free-api-for-developers-github": 100,
@@ -23,6 +23,7 @@
     "free-llm-api-github": 100,
     "free-llm-api-no-credit-card": 100,
     "free-llm-api-resources-github": 100,
+    "free-llm-api-resources": 100,
     "free-seo-tools-ai": 100,
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-youtube": 100,
@@ -32,7 +33,8 @@
     "self-hosted-rss-feed": 100,
     "telegram-bot-api-free": 100,
     "telegram-bot-api-key": 100,
-    "telegram-bot-api-python": 100
+    "telegram-bot-api-python": 100,
+    "telegram-bot-api-token": 100
   },
   "social": [
     {
@@ -125,26 +127,38 @@
     },
     {
       "id": "free-api-for-developers-github:published-2026-11-10T14:58:52+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-custom-domain-email-hosting:published-2026-11-10T14:58:52+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-resources-github:updated-2026-11-10T14:58:52+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-resources:published-2026-11-11T14:29:40+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-resources-github:updated-2026-11-10T14:58:52+00:00",
+      "id": "telegram-bot-api-token:published-2026-11-11T14:29:40+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-11T14:29:40+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 64,
-    "posts": 18,
+    "pages": 68,
+    "posts": 20,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
