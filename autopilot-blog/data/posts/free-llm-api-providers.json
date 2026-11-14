@@ -1,0 +1,116 @@
+{
+  "slug": "free-llm-api-providers",
+  "title": "Free LLM API Providers: Free Tools, Real Trade-offs",
+  "meta_description": "What does Free LLM API Providers cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026",
+  "intro": [
+    "This is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free llm api providers, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.",
+    "We'll walk through Groq Free Tier, Openrouter Free Models, Choosing a Free LLM for a Blog, and Hugging Face Inference \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Groq Free Tier",
+      "paragraphs": [
+        "The foundation looks like this: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+        "So what does that look like when you're actually doing it? Llama-family models run on dedicated hardware that makes response times almost embarrassing, and the free tier has enough tokens for a daily content job. It plugs into this engine through the same OpenAI-compatible interface as every other provider.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Groq \u2014 Console and free tier",
+        "url": "https://console.groq.com/"
+      }
+    },
+    {
+      "heading": "Openrouter Free Models",
+      "paragraphs": [
+        "Worth spending ten minutes on: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+        "In other words: One key, one endpoint, many backends \u2014 you can switch models in a config line and keep the same code. The free models rotate, but the pattern is stable: check the model list, pick the ones marked free, done.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "OpenRouter \u2014 model list and pricing",
+        "url": "https://openrouter.ai/models"
+      }
+    },
+    {
+      "heading": "Choosing a Free LLM for a Blog",
+      "paragraphs": [
+        "First, the thing that actually matters: For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person.",
+        "Concretely: A few posts a day uses a tiny fraction of any free tier's daily allowance. The practical recipe: pick one primary provider for reliability, keep a second as fallback in an env var, and let the engine fall back to its template writer if both fail \u2014 the blog never misses a publish date.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "The Free Stack \u2014 this engine's writer module",
+        "url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog"
+      }
+    },
+    {
+      "heading": "Hugging Face Inference",
+      "paragraphs": [
+        "Start with the basics. Hugging Face hosts thousands of open models and offers free inference access for personal projects.",
+        "Which, in day-to-day terms, means: It is the natural home for open-weight models: you find the model card, read the license, and call it through the Inference Providers API. Free allowances vary by model and provider, but the catalog is the largest in the open ecosystem.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Hugging Face \u2014 Inference Providers",
+        "url": "https://huggingface.co/docs/inference-providers"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the real limitations of free llm api providers?",
+      "answer": "The honest answer: Hugging Face hosts thousands of open models and offers free inference access for personal projects. Keyless public endpoints can get throttled if you hammer them, so batch your requests and cache what you fetch."
+    },
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "The honest answer: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    },
+    {
+      "question": "Is free llm api providers actually free?",
+      "answer": "The honest answer: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere. Free tiers are generous for personal projects, but a growing business should read the pricing page before scaling into it."
+    }
+  ],
+  "takeaways": [
+    "Remember: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+    "Remember: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+    "Remember: Hugging Face hosts thousands of open models and offers free inference access for personal projects.",
+    "Don't forget \u2014 For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person."
+  ],
+  "tags": [
+    "free-api",
+    "ai",
+    "llm",
+    "open-source"
+  ],
+  "keywords": [
+    "free llm api providers",
+    "free llm api"
+  ],
+  "sources": [
+    {
+      "title": "Groq \u2014 Console and free tier",
+      "url": "https://console.groq.com/"
+    },
+    {
+      "title": "OpenRouter \u2014 model list and pricing",
+      "url": "https://openrouter.ai/models"
+    },
+    {
+      "title": "The Free Stack \u2014 this engine's writer module",
+      "url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog"
+    },
+    {
+      "title": "Hugging Face \u2014 Inference Providers",
+      "url": "https://huggingface.co/docs/inference-providers"
+    }
+  ],
+  "created": "2026-11-14T13:38:00+00:00",
+  "updated": "2026-11-14T13:38:00+00:00",
+  "backend": "template",
+  "words": 666,
+  "reading_time": 3
+}

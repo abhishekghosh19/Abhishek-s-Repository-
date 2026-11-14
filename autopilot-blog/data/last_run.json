@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-13T14:40:28+00:00",
+  "at": "2026-11-14T13:37:49+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "gemini api free tier models",
-    "gemini api free tier usage limits"
+    "open source notion alternative reddit",
+    "free llm api providers"
   ],
   "published": [
-    "gemini-api-free-tier-models",
-    "gemini-api-free-tier-usage-limits"
+    "open-source-notion-alternative-reddit",
+    "free-llm-api-providers"
   ],
   "refreshed": [
-    "free-llm-api-no-credit-card"
+    "telegram-bot-api-python"
   ],
   "audits": {
     "free-api-for-developers-github": 100,
@@ -23,6 +23,7 @@
     "free-llm-api-github-repo": 100,
     "free-llm-api-github": 100,
     "free-llm-api-no-credit-card": 100,
+    "free-llm-api-providers": 100,
     "free-llm-api-resources-github": 100,
     "free-llm-api-resources": 100,
     "free-seo-tools-ai": 100,
@@ -33,6 +34,7 @@
     "gemini-api-free-tier-models": 100,
     "gemini-api-free-tier-usage-limits": 100,
     "notion-alternative-open-source-self-hosted": 89,
+    "open-source-notion-alternative-reddit": 89,
     "python-web-scraping-library": 100,
     "self-hosted-rss-feed": 100,
     "telegram-bot-api-free": 100,
@@ -43,10 +45,6 @@
   "social": [
     {
       "id": "telegram-bot-api-free:published-2026-09-27T16:55:37+00:00",
-      "channels": {}
-    },
-    {
-      "id": "free-llm-api-no-credit-card:published-2026-09-27T16:55:37+00:00",
       "channels": {}
     },
     {
@@ -163,26 +161,38 @@
     },
     {
       "id": "gemini-api-free-tier-models:published-2026-11-13T14:40:41+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "gemini-api-free-tier-usage-limits:published-2026-11-13T14:40:41+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-13T14:40:41+00:00",
+      "channels": {}
+    },
+    {
+      "id": "open-source-notion-alternative-reddit:published-2026-11-14T13:38:00+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-13T14:40:41+00:00",
+      "id": "free-llm-api-providers:published-2026-11-14T13:38:00+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "telegram-bot-api-python:updated-2026-11-14T13:38:00+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 78,
-    "posts": 24,
+    "pages": 82,
+    "posts": 26,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
