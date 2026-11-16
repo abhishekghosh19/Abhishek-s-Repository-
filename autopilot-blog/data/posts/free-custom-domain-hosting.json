@@ -1,0 +1,123 @@
+{
+  "slug": "free-custom-domain-hosting",
+  "title": "Free Custom Domain Hosting: Free Tools, Real Trade-offs",
+  "meta_description": "Free Custom Domain Hosting: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026",
+  "intro": [
+    "If you've been searching for free custom domain hosting, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago. This one is built to stay useful, and it's maintained automatically.",
+    "We'll walk through Is-a.dev Free Domains, Cloudflare Pages, Github Pages, and Measure before you optimize \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Is-a.dev Free Domains",
+      "paragraphs": [
+        "Skip the fluff and start here: is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site.",
+        "Which, in day-to-day terms, means: It is the fastest path from user.github.io/repo to a name that looks like an actual domain. You request the subdomain, add a CNAME record, and the platform handles the certificate. There is no invoice, ever.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [
+        "Request yourhandle.is-a.dev in the is-a.dev app",
+        "Add the provided CNAME record to your repo's Pages settings",
+        "Wait a few minutes for propagation"
+      ],
+      "source": {
+        "title": "is-a.dev",
+        "url": "https://isa.dev/"
+      }
+    },
+    {
+      "heading": "Cloudflare Pages",
+      "paragraphs": [
+        "Start with the basics. Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request.",
+        "Which, in day-to-day terms, means: Connect a Git repo and every branch or PR gets its own preview URL, while the main branch gets a production URL on Cloudflare's network. The free tier covers static sites comfortably and custom domains are supported without a separate CDN bill.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [
+        "Create a Pages project in the Cloudflare dashboard and link the repo",
+        "Point the build output at the static folder",
+        "Add a custom domain in the project's domains tab"
+      ],
+      "source": {
+        "title": "Cloudflare \u2014 Pages documentation",
+        "url": "https://developers.cloudflare.com/pages/"
+      }
+    },
+    {
+      "heading": "Github Pages",
+      "paragraphs": [
+        "Here's the part most people get wrong. GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code.",
+        "Which, in day-to-day terms, means: Point Pages at any subdirectory of a repository and GitHub serves it over HTTPS with a built-in URL, custom domain support, and automatic deploys on every push. For a static blog the entire hosting bill is zero, with no server, no DNS glue, and no renewal dates.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [
+        "Pick a directory (e.g. autopilot-blog/site/) as the site source in repo Settings \u2192 Pages",
+        "Push (or let the engine push) the built HTML and the site deploys in under a minute",
+        "Optionally map a custom domain in the same settings page"
+      ],
+      "source": {
+        "title": "GitHub Docs \u2014 About custom domains and GitHub Pages",
+        "url": "https://docs.github.com/en/pages"
+      }
+    },
+    {
+      "heading": "Measure before you optimize",
+      "paragraphs": [
+        "Here's the part most people get wrong. You cannot improve what you do not measure, and the measurement tools here are all free.",
+        "So what does that look like when you're actually doing it? Search console data, a simple counter in your build log, or raw access logs tell you which pages earn their keep. Ten minutes of reading that data is worth more than an hour of guessing, and none of it requires a paid analytics account.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much do I need to know before trying free custom domain hosting?",
+      "answer": "Mostly, yes. Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    },
+    {
+      "question": "What are the real limitations of free custom domain hosting?",
+      "answer": "Less than you'd think. GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code. Start there and only add pieces when you feel actual pain."
+    },
+    {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site. Treat that as the working assumption and re-check the docs once a quarter."
+    }
+  ],
+  "takeaways": [
+    "Remember: is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site.",
+    "The whole point in one sentence: GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code.",
+    "Remember: Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request."
+  ],
+  "tags": [
+    "free-hosting",
+    "static-sites",
+    "hosting",
+    "github"
+  ],
+  "keywords": [
+    "free custom domain hosting",
+    "free custom domain"
+  ],
+  "sources": [
+    {
+      "title": "is-a.dev",
+      "url": "https://isa.dev/"
+    },
+    {
+      "title": "Cloudflare \u2014 Pages documentation",
+      "url": "https://developers.cloudflare.com/pages/"
+    },
+    {
+      "title": "GitHub Docs \u2014 About custom domains and GitHub Pages",
+      "url": "https://docs.github.com/en/pages"
+    }
+  ],
+  "created": "2026-11-16T15:58:24+00:00",
+  "updated": "2026-11-16T15:58:24+00:00",
+  "backend": "template",
+  "words": 733,
+  "reading_time": 4
+}

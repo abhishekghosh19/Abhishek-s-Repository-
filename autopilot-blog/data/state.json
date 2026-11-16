@@ -1,8 +1,8 @@
 {
   "counters": {
-    "posts_published": 27,
-    "posts_refreshed": 12,
-    "social_delivered": 280,
+    "posts_published": 29,
+    "posts_refreshed": 13,
+    "social_delivered": 320,
     "social_skipped": 0
   },
   "keywords_seen": {
@@ -125,7 +125,7 @@
     "telegram bot api url": 5.72,
     "telegram bot api webhook": 5.25
   },
-  "last_run_at": "2026-11-15T14:01:47+00:00",
+  "last_run_at": "2026-11-16T15:58:24+00:00",
   "posts": {
     "free-api-for-developers-github": {
       "backend": "template",
@@ -166,6 +166,19 @@
       "updated": "2026-09-27T16:59:00+00:00",
       "words": 739
     },
+    "free-custom-domain-hosting": {
+      "backend": "template",
+      "created": "2026-11-16T15:58:24+00:00",
+      "tags": [
+        "free-hosting",
+        "static-sites",
+        "hosting",
+        "github"
+      ],
+      "title": "Free Custom Domain Hosting: Free Tools, Real Trade-offs",
+      "updated": "2026-11-16T15:58:24+00:00",
+      "words": 733
+    },
     "free-custom-domain-website": {
       "backend": "template",
       "created": "2026-11-12T15:22:57+00:00",
@@ -175,7 +188,8 @@
         "github"
       ],
       "title": "Free Custom Domain Website \u2014 What Actually Works in 2026",
-      "updated": "2026-11-12T15:22:57+00:00",
+      "updated": "2026-11-16T15:58:24+00:00",
+      "updated_count": 1,
       "words": 616
     },
     "free-google-hosting-for-static-sites": {
@@ -454,6 +468,19 @@
       "updated_count": 2,
       "words": 684
     },
+    "telegram-bot-api-getupdates": {
+      "backend": "template",
+      "created": "2026-11-16T15:58:24+00:00",
+      "tags": [
+        "free-api",
+        "social-media",
+        "open-source",
+        "telegram"
+      ],
+      "title": "Telegram Bot API Getupdates: Free Tools, Real Trade-offs",
+      "updated": "2026-11-16T15:58:24+00:00",
+      "words": 690
+    },
     "telegram-bot-api-key": {
       "backend": "template",
       "created": "2026-11-08T13:33:47+00:00",
@@ -523,9 +550,11 @@
     "open source notion alternative reddit",
     "free llm api providers",
     "telegram bot api documentation",
-    "gemini api free tier image generation"
+    "gemini api free tier image generation",
+    "free custom domain hosting",
+    "telegram bot api getupdates"
   ],
-  "runs_total": 13,
+  "runs_total": 14,
   "social_queue": [
     {
       "created": "2026-09-27T16:55:37+00:00",
@@ -535,19 +564,19 @@
       "social_text": "The Complete Guide to Telegram Bot API Free (2026)\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to telegram bot api free, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Telegram Bot API Free cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-free.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:01:47+00:00",
+          "at": "2026-11-16T15:58:24+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:01:47+00:00",
+          "at": "2026-11-16T15:58:24+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:01:47+00:00",
+          "at": "2026-11-16T15:58:24+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -559,7 +588,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:01:47+00:00",
+          "at": "2026-11-16T15:58:24+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -575,19 +604,19 @@
       "social_text": "Gemini API Free Tier Limits: Free Tools, Real Trade-offs\n\nHere's the premise: gemini api free tier limits should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the...\n\nGemini API Free Tier Limits: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/gemini-api-free-tier-limits.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:01:51+00:00",
+          "at": "2026-11-16T15:58:28+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:01:51+00:00",
+          "at": "2026-11-16T15:58:28+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:01:51+00:00",
+          "at": "2026-11-16T15:58:28+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -599,7 +628,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:01:51+00:00",
+          "at": "2026-11-16T15:58:28+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -615,19 +644,19 @@
       "social_text": "How to Get Free SEO Tools for Small Websites Without Spending a Dollar\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free seo tools for small websites, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nFree SEO Tools for Small Websites: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026\n\n#seo #freeapi #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-for-small-websites.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:01:55+00:00",
+          "at": "2026-11-16T15:58:32+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:01:55+00:00",
+          "at": "2026-11-16T15:58:32+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:01:55+00:00",
+          "at": "2026-11-16T15:58:32+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -639,7 +668,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:01:55+00:00",
+          "at": "2026-11-16T15:58:32+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -655,19 +684,19 @@
       "social_text": "The Complete Guide to Free Custom Domain for Github Pages (2026)\n\nYou don't need a budget to get good at free custom domain for github pages. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked...\n\nWhat does Free Custom Domain for Github Pages cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source\u2026\n\n#freehosting #hosting #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-for-github-pages.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:01:59+00:00",
+          "at": "2026-11-16T15:58:36+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:01:59+00:00",
+          "at": "2026-11-16T15:58:36+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:01:59+00:00",
+          "at": "2026-11-16T15:58:36+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -679,7 +708,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:01:59+00:00",
+          "at": "2026-11-16T15:58:36+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -695,19 +724,19 @@
       "social_text": "Python Web Scraping Library on a $0 Budget: An Honest Walkthrough\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to python web scraping library, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nPython Web Scraping Library: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#scraping #python #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/python-web-scraping-library.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:03+00:00",
+          "at": "2026-11-16T15:58:40+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:03+00:00",
+          "at": "2026-11-16T15:58:40+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:03+00:00",
+          "at": "2026-11-16T15:58:40+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -719,7 +748,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:03+00:00",
+          "at": "2026-11-16T15:58:40+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -735,19 +764,19 @@
       "social_text": "How to Get Self Hosted RSS Feed Without Spending a Dollar\n\nLet's be honest: the internet is full of posts that pretend self hosted rss feed is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that quietly...\n\nSelf Hosted RSS Feed: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#selfhost #rss #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/self-hosted-rss-feed.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:07+00:00",
+          "at": "2026-11-16T15:58:44+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:07+00:00",
+          "at": "2026-11-16T15:58:44+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:07+00:00",
+          "at": "2026-11-16T15:58:44+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -759,7 +788,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:07+00:00",
+          "at": "2026-11-16T15:58:44+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -775,19 +804,19 @@
       "social_text": "Free SEO Tools for Youtube: Free Tools, Real Trade-offs\n\nYou don't need a budget to get good at free seo tools for youtube. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the...\n\nFree SEO Tools for Youtube: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#seo #freeapi #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-for-youtube.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:11+00:00",
+          "at": "2026-11-16T15:58:48+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:11+00:00",
+          "at": "2026-11-16T15:58:48+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:11+00:00",
+          "at": "2026-11-16T15:58:48+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -799,7 +828,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:11+00:00",
+          "at": "2026-11-16T15:58:48+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -815,19 +844,19 @@
       "social_text": "Free SEO Tools for Youtube: Free Tools, Real Trade-offs\n\nYou don't need a budget to get good at free seo tools for youtube. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the...\n\nFree SEO Tools for Youtube: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#seo #freeapi #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-for-youtube.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:15+00:00",
+          "at": "2026-11-16T15:58:52+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:15+00:00",
+          "at": "2026-11-16T15:58:52+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:15+00:00",
+          "at": "2026-11-16T15:58:52+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -839,7 +868,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:15+00:00",
+          "at": "2026-11-16T15:58:52+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -855,19 +884,19 @@
       "social_text": "Free Google Hosting for Static Sites: A Practical Field Guide\n\nMost 'complete guides' to free google hosting for static sites pad the word count with ads. This one is different: every recommendation below runs on a free tier, an open-source project, or both. If a recommendation...\n\nFree Google Hosting for Static Sites: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026\n\n#hosting #freehosting #staticsites\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-google-hosting-for-static-sites.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:19+00:00",
+          "at": "2026-11-16T15:58:56+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:19+00:00",
+          "at": "2026-11-16T15:58:56+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:19+00:00",
+          "at": "2026-11-16T15:58:56+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -879,7 +908,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:19+00:00",
+          "at": "2026-11-16T15:58:56+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -895,19 +924,19 @@
       "social_text": "Notion Alternative Open Source Self Hosted: A Practical Field Guide\n\nIf you've been searching for notion alternative open source self hosted, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years...\n\nWhat does Notion Alternative Open Source Self Hosted cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source\u2026\n\n#opensource #selfhost #productivity\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/notion-alternative-open-source-self-hosted.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:23+00:00",
+          "at": "2026-11-16T15:59:00+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:23+00:00",
+          "at": "2026-11-16T15:59:00+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:23+00:00",
+          "at": "2026-11-16T15:59:00+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -919,7 +948,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:23+00:00",
+          "at": "2026-11-16T15:59:00+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -935,19 +964,19 @@
       "social_text": "The Complete Guide to Telegram Bot API Free (2026)\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to telegram bot api free, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Telegram Bot API Free cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-free.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:27+00:00",
+          "at": "2026-11-16T15:59:04+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:27+00:00",
+          "at": "2026-11-16T15:59:04+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:27+00:00",
+          "at": "2026-11-16T15:59:04+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -959,7 +988,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:27+00:00",
+          "at": "2026-11-16T15:59:04+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -975,19 +1004,19 @@
       "social_text": "Free SEO Tools AI \u2014 What Actually Works in 2026\n\nIf you've been searching for free seo tools ai, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago. This one is built to...\n\nWhat does Free SEO Tools AI cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#seo #freeapi #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-ai.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:31+00:00",
+          "at": "2026-11-16T15:59:08+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:31+00:00",
+          "at": "2026-11-16T15:59:08+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:31+00:00",
+          "at": "2026-11-16T15:59:08+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -999,7 +1028,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:31+00:00",
+          "at": "2026-11-16T15:59:08+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1015,19 +1044,19 @@
       "social_text": "Free LLM API Github \u2014 What Actually Works in 2026\n\nHere's the premise: free llm api github should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the gotchas...\n\nWhat does Free LLM API Github cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#llm #ai #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-github.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:35+00:00",
+          "at": "2026-11-16T15:59:12+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:35+00:00",
+          "at": "2026-11-16T15:59:12+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:35+00:00",
+          "at": "2026-11-16T15:59:12+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1039,7 +1068,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:35+00:00",
+          "at": "2026-11-16T15:59:12+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1055,19 +1084,19 @@
       "social_text": "The Complete Guide to Telegram Bot API Free (2026)\n\nYou don't need a budget to get good at telegram bot api free. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the same...\n\nWhat does Telegram Bot API Free cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-free.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:39+00:00",
+          "at": "2026-11-16T15:59:16+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:39+00:00",
+          "at": "2026-11-16T15:59:16+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:39+00:00",
+          "at": "2026-11-16T15:59:16+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1079,7 +1108,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:39+00:00",
+          "at": "2026-11-16T15:59:16+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1095,19 +1124,19 @@
       "social_text": "The Complete Guide to Telegram Bot API Key (2026)\n\nYou don't need a budget to get good at telegram bot api key. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the same...\n\nTelegram Bot API Key: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#socialmedia #freeapi #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-key.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:43+00:00",
+          "at": "2026-11-16T15:59:20+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:43+00:00",
+          "at": "2026-11-16T15:59:20+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:43+00:00",
+          "at": "2026-11-16T15:59:20+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1119,7 +1148,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:43+00:00",
+          "at": "2026-11-16T15:59:20+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1135,19 +1164,19 @@
       "social_text": "Telegram Bot API Python: Free Tools, Real Trade-offs\n\nYou don't need a budget to get good at telegram bot api python. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the same...\n\nWhat does Telegram Bot API Python cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #python #dataapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-python.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:47+00:00",
+          "at": "2026-11-16T15:59:24+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:47+00:00",
+          "at": "2026-11-16T15:59:24+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:47+00:00",
+          "at": "2026-11-16T15:59:24+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1159,7 +1188,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:47+00:00",
+          "at": "2026-11-16T15:59:24+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1175,19 +1204,19 @@
       "social_text": "Free LLM API Github Repo: A Practical Field Guide\n\nIf you've been searching for free llm api github repo, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago. This one is...\n\nFree LLM API Github Repo: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#llm #ai #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-github-repo.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:55+00:00",
+          "at": "2026-11-16T15:59:28+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:55+00:00",
+          "at": "2026-11-16T15:59:28+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:55+00:00",
+          "at": "2026-11-16T15:59:28+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1199,7 +1228,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:55+00:00",
+          "at": "2026-11-16T15:59:28+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1215,19 +1244,19 @@
       "social_text": "Free LLM API Resources Github: A Practical Field Guide\n\nYou don't need a budget to get good at free llm api resources github. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the...\n\nWhat does Free LLM API Resources Github cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#llm #ai #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-resources-github.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:02:59+00:00",
+          "at": "2026-11-16T15:59:32+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:02:59+00:00",
+          "at": "2026-11-16T15:59:32+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:02:59+00:00",
+          "at": "2026-11-16T15:59:32+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1239,7 +1268,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:02:59+00:00",
+          "at": "2026-11-16T15:59:32+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1255,19 +1284,19 @@
       "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:03+00:00",
+          "at": "2026-11-16T15:59:36+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:03+00:00",
+          "at": "2026-11-16T15:59:36+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:03+00:00",
+          "at": "2026-11-16T15:59:36+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1279,7 +1308,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:03+00:00",
+          "at": "2026-11-16T15:59:36+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1295,19 +1324,19 @@
       "social_text": "Free API for Developers Github \u2014 What Actually Works in 2026\n\nYou don't need a budget to get good at free api for developers github. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by...\n\nFree API for Developers Github: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written\u2026\n\n#freeapi #seo #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-api-for-developers-github.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:07+00:00",
+          "at": "2026-11-16T15:59:40+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:07+00:00",
+          "at": "2026-11-16T15:59:40+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:07+00:00",
+          "at": "2026-11-16T15:59:40+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1319,7 +1348,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:07+00:00",
+          "at": "2026-11-16T15:59:40+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1335,19 +1364,19 @@
       "social_text": "Free Custom Domain Email Hosting on a $0 Budget: An Honest Walkthrough\n\nLet's be honest: the internet is full of posts that pretend free custom domain email hosting is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options...\n\nWhat does Free Custom Domain Email Hosting cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives\u2026\n\n#freehosting #hosting #staticsites\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-email-hosting.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:11+00:00",
+          "at": "2026-11-16T15:59:44+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:11+00:00",
+          "at": "2026-11-16T15:59:44+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:11+00:00",
+          "at": "2026-11-16T15:59:44+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1359,7 +1388,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:11+00:00",
+          "at": "2026-11-16T15:59:44+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1375,19 +1404,19 @@
       "social_text": "Free LLM API Resources Github: A Practical Field Guide\n\nLet's be honest: the internet is full of posts that pretend free llm api resources github is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API Resources Github cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#llm #ai #freeapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-resources-github.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:15+00:00",
+          "at": "2026-11-16T15:59:48+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:15+00:00",
+          "at": "2026-11-16T15:59:48+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:15+00:00",
+          "at": "2026-11-16T15:59:48+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1399,7 +1428,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:15+00:00",
+          "at": "2026-11-16T15:59:48+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1415,19 +1444,19 @@
       "social_text": "The Complete Guide to Free LLM API Resources (2026)\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free llm api resources, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nFree LLM API Resources: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#freeapi #llm #ai\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-resources.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:19+00:00",
+          "at": "2026-11-16T15:59:52+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:19+00:00",
+          "at": "2026-11-16T15:59:52+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:19+00:00",
+          "at": "2026-11-16T15:59:52+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1439,7 +1468,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:19+00:00",
+          "at": "2026-11-16T15:59:52+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1455,19 +1484,19 @@
       "social_text": "Telegram Bot API Token: Free Tools, Real Trade-offs\n\nMost 'complete guides' to telegram bot api token pad the word count with ads. This one is different: every recommendation below runs on a free tier, an open-source project, or both. If a recommendation ever costs...\n\nWhat does Telegram Bot API Token cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-token.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:23+00:00",
+          "at": "2026-11-16T15:59:56+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:23+00:00",
+          "at": "2026-11-16T15:59:56+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:23+00:00",
+          "at": "2026-11-16T15:59:56+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1479,7 +1508,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:23+00:00",
+          "at": "2026-11-16T15:59:56+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1495,19 +1524,19 @@
       "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:27+00:00",
+          "at": "2026-11-16T16:00:00+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:27+00:00",
+          "at": "2026-11-16T16:00:00+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:27+00:00",
+          "at": "2026-11-16T16:00:00+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1519,7 +1548,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:27+00:00",
+          "at": "2026-11-16T16:00:00+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1535,19 +1564,19 @@
       "social_text": "Free SEO Tools for Website \u2014 What Actually Works in 2026\n\nLet's be honest: the internet is full of posts that pretend free seo tools for website is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nFree SEO Tools for Website: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#seo #freeapi #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-seo-tools-for-website.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:31+00:00",
+          "at": "2026-11-16T16:00:04+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:31+00:00",
+          "at": "2026-11-16T16:00:04+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:31+00:00",
+          "at": "2026-11-16T16:00:04+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1559,7 +1588,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:31+00:00",
+          "at": "2026-11-16T16:00:04+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1575,19 +1604,19 @@
       "social_text": "Free Custom Domain Website \u2014 What Actually Works in 2026\n\nHere's the premise: free custom domain website should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the...\n\nFree Custom Domain Website: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#domains #freehosting #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-website.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:35+00:00",
+          "at": "2026-11-16T16:00:08+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:35+00:00",
+          "at": "2026-11-16T16:00:08+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:35+00:00",
+          "at": "2026-11-16T16:00:08+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1599,7 +1628,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:35+00:00",
+          "at": "2026-11-16T16:00:08+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1615,19 +1644,19 @@
       "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:39+00:00",
+          "at": "2026-11-16T16:00:12+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:39+00:00",
+          "at": "2026-11-16T16:00:12+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:39+00:00",
+          "at": "2026-11-16T16:00:12+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1639,7 +1668,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:39+00:00",
+          "at": "2026-11-16T16:00:12+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1655,19 +1684,19 @@
       "social_text": "The Complete Guide to Gemini API Free Tier Models (2026)\n\nYou don't need a budget to get good at gemini api free tier models. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the...\n\nWhat does Gemini API Free Tier Models cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#ai #freeapi #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/gemini-api-free-tier-models.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:43+00:00",
+          "at": "2026-11-16T16:00:16+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:43+00:00",
+          "at": "2026-11-16T16:00:16+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:43+00:00",
+          "at": "2026-11-16T16:00:16+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1679,7 +1708,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:43+00:00",
+          "at": "2026-11-16T16:00:16+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1695,19 +1724,19 @@
       "social_text": "The Complete Guide to Gemini API Free Tier Usage Limits (2026)\n\nYou don't need a budget to get good at gemini api free tier usage limits. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by...\n\nGemini API Free Tier Usage Limits: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026\n\n#freeapi #llm #ai\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/gemini-api-free-tier-usage-limits.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:47+00:00",
+          "at": "2026-11-16T16:00:20+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:47+00:00",
+          "at": "2026-11-16T16:00:20+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:47+00:00",
+          "at": "2026-11-16T16:00:20+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1719,7 +1748,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:47+00:00",
+          "at": "2026-11-16T16:00:20+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1735,19 +1764,19 @@
       "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:51+00:00",
+          "at": "2026-11-16T16:00:24+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:51+00:00",
+          "at": "2026-11-16T16:00:24+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:51+00:00",
+          "at": "2026-11-16T16:00:24+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1759,7 +1788,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:51+00:00",
+          "at": "2026-11-16T16:00:24+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1775,19 +1804,19 @@
       "social_text": "Open Source Notion Alternative Reddit on a $0 Budget: An Honest Walkthrough\n\nLet's be honest: the internet is full of posts that pretend open source notion alternative reddit is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free...\n\nOpen Source Notion Alternative Reddit: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026\n\n#selfhost #opensource #automation\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/open-source-notion-alternative-reddit.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:55+00:00",
+          "at": "2026-11-16T16:00:28+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:55+00:00",
+          "at": "2026-11-16T16:00:28+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:55+00:00",
+          "at": "2026-11-16T16:00:28+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1799,7 +1828,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:55+00:00",
+          "at": "2026-11-16T16:00:28+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1815,19 +1844,19 @@
       "social_text": "Free LLM API Providers: Free Tools, Real Trade-offs\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free llm api providers, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Free LLM API Providers cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-providers.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:03:59+00:00",
+          "at": "2026-11-16T16:00:32+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:03:59+00:00",
+          "at": "2026-11-16T16:00:32+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:03:59+00:00",
+          "at": "2026-11-16T16:00:32+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1839,7 +1868,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:03:59+00:00",
+          "at": "2026-11-16T16:00:32+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1855,19 +1884,19 @@
       "social_text": "Telegram Bot API Python: Free Tools, Real Trade-offs\n\nLet's be honest: the internet is full of posts that pretend telegram bot api python is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that quietly...\n\nWhat does Telegram Bot API Python cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026\n\n#freeapi #python #dataapi\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-python.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:04:03+00:00",
+          "at": "2026-11-16T16:00:36+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:04:03+00:00",
+          "at": "2026-11-16T16:00:36+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:04:03+00:00",
+          "at": "2026-11-16T16:00:36+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1879,7 +1908,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:04:03+00:00",
+          "at": "2026-11-16T16:00:36+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1895,19 +1924,19 @@
       "social_text": "How to Get Telegram Bot API Documentation Without Spending a Dollar\n\nMost 'complete guides' to telegram bot api documentation pad the word count with ads. This one is different: every recommendation below runs on a free tier, an open-source project, or both. If a recommendation ever...\n\nTelegram Bot API Documentation: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written\u2026\n\n#socialmedia #freeapi #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-documentation.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:04:07+00:00",
+          "at": "2026-11-16T16:00:40+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:04:07+00:00",
+          "at": "2026-11-16T16:00:40+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:04:07+00:00",
+          "at": "2026-11-16T16:00:40+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1919,7 +1948,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:04:07+00:00",
+          "at": "2026-11-16T16:00:40+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1935,19 +1964,19 @@
       "social_text": "How to Get Gemini API Free Tier Image Generation Without Spending a Dollar\n\nIf you've been searching for gemini api free tier image generation, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago....\n\nWhat does Gemini API Free Tier Image Generation cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source\u2026\n\n#freeapi #llm #ai\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/gemini-api-free-tier-image-generation.html",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:04:11+00:00",
+          "at": "2026-11-16T16:00:44+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:04:11+00:00",
+          "at": "2026-11-16T16:00:44+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:04:11+00:00",
+          "at": "2026-11-16T16:00:44+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1959,7 +1988,7 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:04:11+00:00",
+          "at": "2026-11-16T16:00:44+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
@@ -1975,19 +2004,19 @@
       "social_text": "The Complete Guide to Free LLM API No Credit Card (2026)\n\nLet's be honest: the internet is full of posts that pretend free llm api no credit card is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nWhat does Free LLM API No Credit Card cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #ai #llm\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-llm-api-no-credit-card.html (updated)",
       "status": {
         "bluesky": {
-          "at": "2026-11-15T14:04:15+00:00",
+          "at": "2026-11-16T16:00:48+00:00",
           "attempts": 0,
           "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
           "state": "skipped"
         },
         "discord": {
-          "at": "2026-11-15T14:04:15+00:00",
+          "at": "2026-11-16T16:00:48+00:00",
           "attempts": 0,
           "message": "DISCORD_WEBHOOK_URL not set",
           "state": "skipped"
         },
         "mastodon": {
-          "at": "2026-11-15T14:04:15+00:00",
+          "at": "2026-11-16T16:00:48+00:00",
           "attempts": 0,
           "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
           "state": "skipped"
@@ -1999,13 +2028,133 @@
           "state": "posted"
         },
         "telegram": {
-          "at": "2026-11-15T14:04:15+00:00",
+          "at": "2026-11-16T16:00:48+00:00",
           "attempts": 0,
           "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
           "state": "skipped"
         }
       },
       "title": "The Complete Guide to Free LLM API No Credit Card (2026)"
+    },
+    {
+      "created": "2026-11-16T15:58:24+00:00",
+      "id": "free-custom-domain-hosting:published-2026-11-16T15:58:24+00:00",
+      "kind": "published",
+      "post_slug": "free-custom-domain-hosting",
+      "social_text": "Free Custom Domain Hosting: Free Tools, Real Trade-offs\n\nIf you've been searching for free custom domain hosting, you've probably noticed two kinds of advice: paid tools that open with a soft upsell, and abandoned blog posts that stopped being true years ago. This one is...\n\nFree Custom Domain Hosting: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#freehosting #staticsites #hosting\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-hosting.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-11-16T16:00:52+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-11-16T16:00:52+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-11-16T16:00:52+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-11-16T16:00:52+00:00",
+          "attempts": 1,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-11-16T16:00:52+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "Free Custom Domain Hosting: Free Tools, Real Trade-offs"
+    },
+    {
+      "created": "2026-11-16T15:58:24+00:00",
+      "id": "telegram-bot-api-getupdates:published-2026-11-16T15:58:24+00:00",
+      "kind": "published",
+      "post_slug": "telegram-bot-api-getupdates",
+      "social_text": "Telegram Bot API Getupdates: Free Tools, Real Trade-offs\n\nThis is the kind of post The Free Stack exists to write: a practical, no-fluff guide to telegram bot api getupdates, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.\n\nWhat does Telegram Bot API Getupdates cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026\n\n#freeapi #socialmedia #opensource\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/telegram-bot-api-getupdates.html",
+      "status": {
+        "bluesky": {
+          "at": "2026-11-16T16:00:56+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-11-16T16:00:56+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-11-16T16:00:56+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-11-16T16:00:56+00:00",
+          "attempts": 1,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-11-16T16:00:56+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "Telegram Bot API Getupdates: Free Tools, Real Trade-offs"
+    },
+    {
+      "created": "2026-11-16T15:58:24+00:00",
+      "id": "free-custom-domain-website:updated-2026-11-16T15:58:24+00:00",
+      "kind": "updated",
+      "post_slug": "free-custom-domain-website",
+      "social_text": "Free Custom Domain Website \u2014 What Actually Works in 2026\n\nLet's be honest: the internet is full of posts that pretend free custom domain website is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that...\n\nFree Custom Domain Website: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written and\u2026\n\n#domains #freehosting #github\nhttps://abhishekghosh19.github.io/Abhishek-s-Repository-/autopilot-blog/site/posts/free-custom-domain-website.html (updated)",
+      "status": {
+        "bluesky": {
+          "at": "2026-11-16T16:01:00+00:00",
+          "attempts": 0,
+          "message": "BSKY_HANDLE/BSKY_APP_PASSWORD not set",
+          "state": "skipped"
+        },
+        "discord": {
+          "at": "2026-11-16T16:01:00+00:00",
+          "attempts": 0,
+          "message": "DISCORD_WEBHOOK_URL not set",
+          "state": "skipped"
+        },
+        "mastodon": {
+          "at": "2026-11-16T16:01:00+00:00",
+          "attempts": 0,
+          "message": "MASTODON_INSTANCE/MASTODON_ACCESS_TOKEN not set",
+          "state": "skipped"
+        },
+        "rss": {
+          "at": "2026-11-16T16:01:00+00:00",
+          "attempts": 1,
+          "message": "listed in feed.xml (built into the site)",
+          "state": "posted"
+        },
+        "telegram": {
+          "at": "2026-11-16T16:01:00+00:00",
+          "attempts": 0,
+          "message": "TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set",
+          "state": "skipped"
+        }
+      },
+      "title": "Free Custom Domain Website \u2014 What Actually Works in 2026"
     }
   ],
   "version": 1
