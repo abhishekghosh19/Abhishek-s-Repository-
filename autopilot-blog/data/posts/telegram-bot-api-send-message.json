@@ -1,0 +1,116 @@
+{
+  "slug": "telegram-bot-api-send-message",
+  "title": "How to Get Telegram Bot API Send Message Without Spending a Dollar",
+  "meta_description": "What does Telegram Bot API Send Message cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026",
+  "intro": [
+    "Here's the premise: telegram bot api send message should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the gotchas we hit.",
+    "We'll walk through Telegram Bot API, Mastodon API, Bluesky At Protocol, and Keep a changelog \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Telegram Bot API",
+      "paragraphs": [
+        "The foundation looks like this: The Telegram Bot API is free, HTTP-based and needs nothing but a token from @BotFather.",
+        "Which, in day-to-day terms, means: Create a bot in one message, then send and receive messages, create channels, and drive webhooks entirely over plain HTTPS. It is the cheapest 'social media' channel a self-publishing site can own, and this blog posts to it when a token is configured.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [
+        "Message @BotFather and /newbot to get a token",
+        "Send messages with POST /bot<token>/sendMessage",
+        "Optionally set a webhook with setWebhook for incoming events"
+      ],
+      "source": {
+        "title": "Telegram Bot API documentation",
+        "url": "https://core.telegram.org/bots/api"
+      }
+    },
+    {
+      "heading": "Mastodon API",
+      "paragraphs": [
+        "First, the thing that actually matters: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
+        "Concretely: Create an app in your instance's developer settings, exchange it for a token, and the REST API handles statuses, follows and search. Because the whole platform is open source and federated, posting to it costs nothing and can point at an instance you run yourself.",
+        "Write down what you change and why \u2014 your future self will thank you."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Mastodon API documentation",
+        "url": "https://docs.joinmastodon.org/api/"
+      }
+    },
+    {
+      "heading": "Bluesky At Protocol",
+      "paragraphs": [
+        "The short version: Bluesky runs on the open AT Protocol, whose public API is free \u2014 an account plus an app password is all a bot needs to post.",
+        "So what does that look like when you're actually doing it? createSession returns an access token, and app.bsky.feed.post publishes a post. No middleman, no paid 'basic tier' for your own account's posting, and the protocol is openly specified so the implementation is boring in the best way.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Bluesky AT Protocol documentation",
+        "url": "https://docs.bsky.app/"
+      }
+    },
+    {
+      "heading": "Keep a changelog",
+      "paragraphs": [
+        "The short version: Write down what you changed and why, even for experiments you might throw away.",
+        "The upshot: A dated note beats a vague memory every single time \u2014 it's how an autonomous blog like this one tracks its own edits, and it's how you will know in six months why the setup is the way it is.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the real limitations of telegram bot api send message?",
+      "answer": "Mostly, yes. Bluesky runs on the open AT Protocol, whose public API is free \u2014 an account plus an app password is all a bot needs to post. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    },
+    {
+      "question": "How much do I need to know before trying telegram bot api send message?",
+      "answer": "Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "Is telegram bot api send message actually free?",
+      "answer": "The honest answer: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically. Free tiers are generous for personal projects, but a growing business should read the pricing page before scaling into it."
+    }
+  ],
+  "takeaways": [
+    "The Telegram Bot API is free, HTTP-based and needs nothing but a token from @BotFather. That one fact covers most of the confusion around telegram bot api send message.",
+    "Remember: Bluesky runs on the open AT Protocol, whose public API is free \u2014 an account plus an app password is all a bot needs to post.",
+    "Remember: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically."
+  ],
+  "tags": [
+    "social-media",
+    "free-api",
+    "open-source",
+    "telegram"
+  ],
+  "keywords": [
+    "telegram bot api send message",
+    "telegram bot api",
+    "telegram bot api key"
+  ],
+  "sources": [
+    {
+      "title": "Telegram Bot API documentation",
+      "url": "https://core.telegram.org/bots/api"
+    },
+    {
+      "title": "Mastodon API documentation",
+      "url": "https://docs.joinmastodon.org/api/"
+    },
+    {
+      "title": "Bluesky AT Protocol documentation",
+      "url": "https://docs.bsky.app/"
+    }
+  ],
+  "created": "2026-11-17T16:09:15+00:00",
+  "updated": "2026-11-17T16:09:15+00:00",
+  "backend": "template",
+  "words": 675,
+  "reading_time": 3
+}
