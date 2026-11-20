@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-19T15:51:17+00:00",
+  "at": "2026-11-20T15:33:22+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "telegram bot api url",
-    "free weather api key"
+    "free llm api unlimited",
+    "free custom domain email"
   ],
   "published": [
-    "telegram-bot-api-url",
-    "free-weather-api-key"
+    "free-llm-api-unlimited",
+    "free-custom-domain-email"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
@@ -17,6 +17,7 @@
   "audits": {
     "free-api-for-developers-github": 100,
     "free-custom-domain-email-hosting": 89,
+    "free-custom-domain-email": 89,
     "free-custom-domain-for-github-pages": 100,
     "free-custom-domain-hosting": 100,
     "free-custom-domain-website": 89,
@@ -28,6 +29,7 @@
     "free-llm-api-providers": 100,
     "free-llm-api-resources-github": 100,
     "free-llm-api-resources": 100,
+    "free-llm-api-unlimited": 100,
     "free-seo-tools-ai": 100,
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-website": 100,
@@ -154,10 +156,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-12T15:22:57+00:00",
-      "channels": {}
-    },
-    {
       "id": "gemini-api-free-tier-models:published-2026-11-13T14:40:41+00:00",
       "channels": {}
     },
@@ -231,26 +229,38 @@
     },
     {
       "id": "telegram-bot-api-url:published-2026-11-19T15:51:28+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-weather-api-key:published-2026-11-19T15:51:28+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-19T15:51:28+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-unlimited:published-2026-11-20T15:33:41+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-19T15:51:28+00:00",
+      "id": "free-custom-domain-email:published-2026-11-20T15:33:41+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-20T15:33:41+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 103,
-    "posts": 36,
+    "pages": 107,
+    "posts": 38,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []

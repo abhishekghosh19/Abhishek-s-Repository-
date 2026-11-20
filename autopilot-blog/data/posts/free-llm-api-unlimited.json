@@ -1,0 +1,120 @@
+{
+  "slug": "free-llm-api-unlimited",
+  "title": "The Complete Guide to Free LLM API Unlimited (2026)",
+  "meta_description": "What does Free LLM API Unlimited cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and honest\u2026",
+  "intro": [
+    "Here's the premise: free llm api unlimited should cost nothing to get started. Between open-source projects, free API tiers and self-hostable tools, it can. Below is the working setup we actually use, plus the gotchas we hit.",
+    "We'll walk through Gemini API Free Tier, Groq Free Tier, Hugging Face Inference, and Openrouter Free Models \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Gemini API Free Tier",
+      "paragraphs": [
+        "The short version: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+        "In practice that means: You sign in with a Google account, create a key in AI Studio, and call the models over an OpenAI-compatible endpoint. The free tier's rate limits are more than enough for a blog that writes a few posts a day, and the paid tier is only for when you outgrow the quotas.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [
+        "Create a Google AI Studio API key",
+        "Point any OpenAI-compatible client at the Gemini OpenAI endpoint",
+        "Set LLM_BASE_URL, LLM_API_KEY and LLM_MODEL and this engine writes with it"
+      ],
+      "source": {
+        "title": "Google \u2014 Gemini API rate limits",
+        "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+      }
+    },
+    {
+      "heading": "Groq Free Tier",
+      "paragraphs": [
+        "The short version: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+        "The upshot: Llama-family models run on dedicated hardware that makes response times almost embarrassing, and the free tier has enough tokens for a daily content job. It plugs into this engine through the same OpenAI-compatible interface as every other provider.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Groq \u2014 Console and free tier",
+        "url": "https://console.groq.com/"
+      }
+    },
+    {
+      "heading": "Hugging Face Inference",
+      "paragraphs": [
+        "Skip the fluff and start here: Hugging Face hosts thousands of open models and offers free inference access for personal projects.",
+        "In other words: It is the natural home for open-weight models: you find the model card, read the license, and call it through the Inference Providers API. Free allowances vary by model and provider, but the catalog is the largest in the open ecosystem.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Hugging Face \u2014 Inference Providers",
+        "url": "https://huggingface.co/docs/inference-providers"
+      }
+    },
+    {
+      "heading": "Openrouter Free Models",
+      "paragraphs": [
+        "The foundation looks like this: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+        "In other words: One key, one endpoint, many backends \u2014 you can switch models in a config line and keep the same code. The free models rotate, but the pattern is stable: check the model list, pick the ones marked free, done.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "OpenRouter \u2014 model list and pricing",
+        "url": "https://openrouter.ai/models"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "The honest answer: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required. Keyless public endpoints can get throttled if you hammer them, so batch your requests and cache what you fetch."
+    },
+    {
+      "question": "Is free llm api unlimited actually free?",
+      "answer": "OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "What are the real limitations of free llm api unlimited?",
+      "answer": "The honest answer: Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    }
+  ],
+  "takeaways": [
+    "Remember: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+    "Don't forget \u2014 Groq offers a free tier for open-weight LLMs with some of the fastest inference speeds anywhere.",
+    "Don't forget \u2014 OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+    "The whole point in one sentence: Hugging Face hosts thousands of open models and offers free inference access for personal projects."
+  ],
+  "tags": [
+    "ai",
+    "llm",
+    "free-api",
+    "open-source"
+  ],
+  "keywords": [
+    "free llm api unlimited",
+    "free llm api"
+  ],
+  "sources": [
+    {
+      "title": "Google \u2014 Gemini API rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+    },
+    {
+      "title": "Groq \u2014 Console and free tier",
+      "url": "https://console.groq.com/"
+    },
+    {
+      "title": "Hugging Face \u2014 Inference Providers",
+      "url": "https://huggingface.co/docs/inference-providers"
+    },
+    {
+      "title": "OpenRouter \u2014 model list and pricing",
+      "url": "https://openrouter.ai/models"
+    }
+  ],
+  "created": "2026-11-20T15:33:41+00:00",
+  "updated": "2026-11-20T15:33:41+00:00",
+  "backend": "template",
+  "words": 674,
+  "reading_time": 3
+}
