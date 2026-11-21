@@ -1,20 +1,21 @@
 {
-  "at": "2026-11-20T15:33:22+00:00",
+  "at": "2026-11-21T14:44:10+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free llm api unlimited",
-    "free custom domain email"
+    "cloudflare pages free tier",
+    "free weather api key without login"
   ],
   "published": [
-    "free-llm-api-unlimited",
-    "free-custom-domain-email"
+    "cloudflare-pages-free-tier",
+    "free-weather-api-key-without-login"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
   ],
   "audits": {
+    "cloudflare-pages-free-tier": 100,
     "free-api-for-developers-github": 100,
     "free-custom-domain-email-hosting": 89,
     "free-custom-domain-email": 89,
@@ -34,6 +35,7 @@
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-website": 100,
     "free-seo-tools-for-youtube": 100,
+    "free-weather-api-key-without-login": 89,
     "free-weather-api-key": 89,
     "gemini-api-free-tier-image-generation": 89,
     "gemini-api-free-tier-limits": 100,
@@ -164,10 +166,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-13T14:40:41+00:00",
-      "channels": {}
-    },
-    {
       "id": "open-source-notion-alternative-reddit:published-2026-11-14T13:38:00+00:00",
       "channels": {}
     },
@@ -241,26 +239,38 @@
     },
     {
       "id": "free-llm-api-unlimited:published-2026-11-20T15:33:41+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-custom-domain-email:published-2026-11-20T15:33:41+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-20T15:33:41+00:00",
+      "channels": {}
+    },
+    {
+      "id": "cloudflare-pages-free-tier:published-2026-11-21T14:44:18+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-20T15:33:41+00:00",
+      "id": "free-weather-api-key-without-login:published-2026-11-21T14:44:18+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-21T14:44:18+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 107,
-    "posts": 38,
+    "pages": 111,
+    "posts": 40,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
