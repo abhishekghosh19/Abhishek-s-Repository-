@@ -1,0 +1,124 @@
+{
+  "slug": "free-api-for-developers-without-key",
+  "title": "Free API for Developers Without Key on a $0 Budget: An Honest Walkthrough",
+  "meta_description": "Free API for Developers Without Key: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter\u2026",
+  "intro": [
+    "Let's be honest: the internet is full of posts that pretend free api for developers without key is complicated. It isn't. What's actually complicated is separating the free options that hold up from the free options that quietly become $20/month. That's what this post digs into.",
+    "We'll walk through Hacker News Search API, Mastodon API, Google Search Console, and Github Actions Cron \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Hacker News Search API",
+      "paragraphs": [
+        "Skip the fluff and start here: Algolia runs a free, public search API over the entire Hacker News corpus.",
+        "In other words: Search stories, comments and users by text, author, time range or points \u2014 perfect for a 'what developers are reading' widget on a blog, and a fine read-only data source for research tools like this one.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Hacker News Search by Algolia",
+        "url": "https://hn.algolia.com/api"
+      }
+    },
+    {
+      "heading": "Mastodon API",
+      "paragraphs": [
+        "The short version: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
+        "In other words: Create an app in your instance's developer settings, exchange it for a token, and the REST API handles statuses, follows and search. Because the whole platform is open source and federated, posting to it costs nothing and can point at an instance you run yourself.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Mastodon API documentation",
+        "url": "https://docs.joinmastodon.org/api/"
+      }
+    },
+    {
+      "heading": "Google Search Console",
+      "paragraphs": [
+        "Start with the basics. Google Search Console is free and it is the single most valuable SEO tool there is.",
+        "So what does that look like when you're actually doing it? Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [
+        "Add the site property and verify with a DNS TXT record or verification file",
+        "Submit sitemap.xml under Sitemaps",
+        "Check Performance weekly \u2014 note the queries worth writing more about"
+      ],
+      "source": {
+        "title": "Google Search Console",
+        "url": "https://search.google.com/search-console"
+      }
+    },
+    {
+      "heading": "Github Actions Cron",
+      "paragraphs": [
+        "Start with the basics. GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
+        "In other words: A YAML file with a cron expression is a scheduler: the engine wakes up, researches, writes, publishes, and commits the result. Public repos get unlimited minutes, and the same workflow file gives the owner a one-click 'run now' button in the Actions tab.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [
+        "Add on: schedule: - cron: '17 6 * * *' to a workflow",
+        "Checkout the repo and run the engine in the job",
+        "Commit generated content so the static host deploys it"
+      ],
+      "source": {
+        "title": "GitHub Docs \u2014 Scheduling a workflow",
+        "url": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much do I need to know before trying free api for developers without key?",
+      "answer": "Less than you'd think. Algolia runs a free, public search API over the entire Hacker News corpus. Start there and only add pieces when you feel actual pain."
+    },
+    {
+      "question": "What are the real limitations of free api for developers without key?",
+      "answer": "Mostly, yes. GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    },
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "Google Search Console is free and it is the single most valuable SEO tool there is. Treat that as the working assumption and re-check the docs once a quarter."
+    }
+  ],
+  "takeaways": [
+    "The whole point in one sentence: Algolia runs a free, public search API over the entire Hacker News corpus.",
+    "Don't forget \u2014 Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
+    "The whole point in one sentence: GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
+    "Don't forget \u2014 Google Search Console is free and it is the single most valuable SEO tool there is."
+  ],
+  "tags": [
+    "free-api",
+    "github",
+    "automation",
+    "seo"
+  ],
+  "keywords": [
+    "free api for developers without key",
+    "free api for developers"
+  ],
+  "sources": [
+    {
+      "title": "Hacker News Search by Algolia",
+      "url": "https://hn.algolia.com/api"
+    },
+    {
+      "title": "Mastodon API documentation",
+      "url": "https://docs.joinmastodon.org/api/"
+    },
+    {
+      "title": "Google Search Console",
+      "url": "https://search.google.com/search-console"
+    },
+    {
+      "title": "GitHub Docs \u2014 Scheduling a workflow",
+      "url": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule"
+    }
+  ],
+  "created": "2026-11-22T14:40:35+00:00",
+  "updated": "2026-11-22T14:40:35+00:00",
+  "backend": "template",
+  "words": 714,
+  "reading_time": 4
+}
