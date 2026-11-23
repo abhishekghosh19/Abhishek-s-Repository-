@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-22T14:40:23+00:00",
+  "at": "2026-11-23T18:21:31+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free api for developers without key",
-    "free api for developers json"
+    "free weather api for developers",
+    "free custom domain email address"
   ],
   "published": [
-    "free-api-for-developers-without-key",
-    "free-api-for-developers-json"
+    "free-weather-api-for-developers",
+    "free-custom-domain-email-address"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
@@ -19,6 +19,7 @@
     "free-api-for-developers-github": 100,
     "free-api-for-developers-json": 100,
     "free-api-for-developers-without-key": 89,
+    "free-custom-domain-email-address": 89,
     "free-custom-domain-email-hosting": 89,
     "free-custom-domain-email": 89,
     "free-custom-domain-for-github-pages": 100,
@@ -37,6 +38,7 @@
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-website": 100,
     "free-seo-tools-for-youtube": 100,
+    "free-weather-api-for-developers": 78,
     "free-weather-api-key-without-login": 89,
     "free-weather-api-key": 89,
     "gemini-api-free-tier-image-generation": 89,
@@ -208,10 +210,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-17T16:09:15+00:00",
-      "channels": {}
-    },
-    {
       "id": "gemini-api-free-tier-rate-limit:published-2026-11-18T15:45:38+00:00",
       "channels": {}
     },
@@ -261,26 +259,38 @@
     },
     {
       "id": "free-api-for-developers-without-key:published-2026-11-22T14:40:35+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-api-for-developers-json:published-2026-11-22T14:40:35+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-22T14:40:35+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-weather-api-for-developers:published-2026-11-23T18:21:44+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-22T14:40:35+00:00",
+      "id": "free-custom-domain-email-address:published-2026-11-23T18:21:44+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-23T18:21:44+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 115,
-    "posts": 42,
+    "pages": 119,
+    "posts": 44,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []

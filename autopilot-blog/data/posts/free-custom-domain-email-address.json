@@ -1,0 +1,110 @@
+{
+  "slug": "free-custom-domain-email-address",
+  "title": "Free Custom Domain Email Address: Free Tools, Real Trade-offs",
+  "meta_description": "What does Free Custom Domain Email Address cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives\u2026",
+  "intro": [
+    "You don't need a budget to get good at free custom domain email address. You need a map of the free tools, and an honest read on the trade-offs between them. Here's that map \u2014 researched, written and fact-checked by the same engine that publishes this blog.",
+    "We'll walk through Is-a.dev Free Domains, Eu.org Free Subdomains, Automate the boring parts, and Measure before you optimize \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Is-a.dev Free Domains",
+      "paragraphs": [
+        "Skip the fluff and start here: is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site.",
+        "So what does that look like when you're actually doing it? It is the fastest path from user.github.io/repo to a name that looks like an actual domain. You request the subdomain, add a CNAME record, and the platform handles the certificate. There is no invoice, ever.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [
+        "Request yourhandle.is-a.dev in the is-a.dev app",
+        "Add the provided CNAME record to your repo's Pages settings",
+        "Wait a few minutes for propagation"
+      ],
+      "source": {
+        "title": "is-a.dev",
+        "url": "https://isa.dev/"
+      }
+    },
+    {
+      "heading": "Eu.org Free Subdomains",
+      "paragraphs": [
+        "First, the thing that actually matters: eu.org has offered free subdomains to anyone for decades \u2014 the oldest free-domain project still around.",
+        "In practice that means: The catch is patience: the application is manual and approval can take days to weeks, and inactive domains get reclaimed. For projects that can wait, it is a genuinely free, transferable subdomain.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "eu.org \u2014 Free subdomains",
+        "url": "https://eu.org/"
+      }
+    },
+    {
+      "heading": "Automate the boring parts",
+      "paragraphs": [
+        "The short version: Anything you do twice by hand should become a script. That's the entire discipline of free automation.",
+        "Which, in day-to-day terms, means: A cron expression, a webhook, or a scheduled workflow costs nothing to run and buys back an hour every week. Start with one small automation \u2014 a nightly backup, a feed check, a deploy on push \u2014 and add more only when the first one proves itself.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    },
+    {
+      "heading": "Measure before you optimize",
+      "paragraphs": [
+        "Here's the part most people get wrong. You cannot improve what you do not measure, and the measurement tools here are all free.",
+        "In practice that means: Search console data, a simple counter in your build log, or raw access logs tell you which pages earn their keep. Ten minutes of reading that data is worth more than an hour of guessing, and none of it requires a paid analytics account.",
+        "The links in the sources section go straight to the primary docs."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What would you do first if you only had one free afternoon?",
+      "answer": "Less than you'd think. eu.org has offered free subdomains to anyone for decades \u2014 the oldest free-domain project still around. Start there and only add pieces when you feel actual pain."
+    },
+    {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "Mostly, yes. is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site. Keyless public endpoints can get throttled if you hammer them, so batch your requests and cache what you fetch."
+    },
+    {
+      "question": "Is free custom domain email address actually free?",
+      "answer": "Mostly, yes. is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    }
+  ],
+  "takeaways": [
+    "The whole point in one sentence: is-a.dev gives you a real custom domain \u2014 username.is-a.dev \u2014 completely free, pointed at your GitHub Pages site.",
+    "Remember: eu.org has offered free subdomains to anyone for decades \u2014 the oldest free-domain project still around."
+  ],
+  "tags": [
+    "domains",
+    "github",
+    "free-hosting"
+  ],
+  "keywords": [
+    "free custom domain email address",
+    "free custom domain",
+    "free custom domain email"
+  ],
+  "sources": [
+    {
+      "title": "is-a.dev",
+      "url": "https://isa.dev/"
+    },
+    {
+      "title": "eu.org \u2014 Free subdomains",
+      "url": "https://eu.org/"
+    }
+  ],
+  "created": "2026-11-23T18:21:44+00:00",
+  "updated": "2026-11-23T18:21:44+00:00",
+  "backend": "template",
+  "words": 635,
+  "reading_time": 3
+}
