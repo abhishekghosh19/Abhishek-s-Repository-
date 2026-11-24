@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-23T18:21:31+00:00",
+  "at": "2026-11-24T17:52:56+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free weather api for developers",
-    "free custom domain email address"
+    "free weather api for commercial use",
+    "python web scraping beautifulsoup"
   ],
   "published": [
-    "free-weather-api-for-developers",
-    "free-custom-domain-email-address"
+    "free-weather-api-for-commercial-use",
+    "python-web-scraping-beautifulsoup"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
@@ -38,6 +38,7 @@
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-website": 100,
     "free-seo-tools-for-youtube": 100,
+    "free-weather-api-for-commercial-use": 89,
     "free-weather-api-for-developers": 78,
     "free-weather-api-key-without-login": 89,
     "free-weather-api-key": 89,
@@ -48,6 +49,7 @@
     "gemini-api-free-tier-usage-limits": 100,
     "notion-alternative-open-source-self-hosted": 89,
     "open-source-notion-alternative-reddit": 89,
+    "python-web-scraping-beautifulsoup": 89,
     "python-web-scraping-dynamic-content": 100,
     "python-web-scraping-library": 100,
     "self-hosted-rss-feed": 100,
@@ -218,10 +220,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-18T15:45:38+00:00",
-      "channels": {}
-    },
-    {
       "id": "telegram-bot-api-url:published-2026-11-19T15:51:28+00:00",
       "channels": {}
     },
@@ -271,26 +269,38 @@
     },
     {
       "id": "free-weather-api-for-developers:published-2026-11-23T18:21:44+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-custom-domain-email-address:published-2026-11-23T18:21:44+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-23T18:21:44+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-weather-api-for-commercial-use:published-2026-11-24T17:53:14+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-23T18:21:44+00:00",
+      "id": "python-web-scraping-beautifulsoup:published-2026-11-24T17:53:14+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-24T17:53:14+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 119,
-    "posts": 44,
+    "pages": 123,
+    "posts": 46,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
