@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-24T17:52:56+00:00",
+  "at": "2026-11-25T17:19:54+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free weather api for commercial use",
-    "python web scraping beautifulsoup"
+    "python web scraping tutorial",
+    "free static file hosting sites"
   ],
   "published": [
-    "free-weather-api-for-commercial-use",
-    "python-web-scraping-beautifulsoup"
+    "python-web-scraping-tutorial",
+    "free-static-file-hosting-sites"
   ],
   "refreshed": [
-    "free-llm-api-no-credit-card"
+    "free-api-for-developers-without-key"
   ],
   "audits": {
     "cloudflare-pages-free-tier": 100,
@@ -38,6 +38,7 @@
     "free-seo-tools-for-small-websites": 89,
     "free-seo-tools-for-website": 100,
     "free-seo-tools-for-youtube": 100,
+    "free-static-file-hosting-sites": 100,
     "free-weather-api-for-commercial-use": 89,
     "free-weather-api-for-developers": 78,
     "free-weather-api-key-without-login": 89,
@@ -52,6 +53,7 @@
     "python-web-scraping-beautifulsoup": 89,
     "python-web-scraping-dynamic-content": 100,
     "python-web-scraping-library": 100,
+    "python-web-scraping-tutorial": 100,
     "self-hosted-rss-feed": 100,
     "telegram-bot-api-documentation": 89,
     "telegram-bot-api-free": 100,
@@ -228,10 +230,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-19T15:51:28+00:00",
-      "channels": {}
-    },
-    {
       "id": "free-llm-api-unlimited:published-2026-11-20T15:33:41+00:00",
       "channels": {}
     },
@@ -281,26 +279,38 @@
     },
     {
       "id": "free-weather-api-for-commercial-use:published-2026-11-24T17:53:14+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "python-web-scraping-beautifulsoup:published-2026-11-24T17:53:14+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-24T17:53:14+00:00",
+      "channels": {}
+    },
+    {
+      "id": "python-web-scraping-tutorial:published-2026-11-25T17:20:11+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-24T17:53:14+00:00",
+      "id": "free-static-file-hosting-sites:published-2026-11-25T17:20:11+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-api-for-developers-without-key:updated-2026-11-25T17:20:11+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 123,
-    "posts": 46,
+    "pages": 127,
+    "posts": 48,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []

@@ -10,9 +10,9 @@
     {
       "heading": "Hacker News Search API",
       "paragraphs": [
-        "Skip the fluff and start here: Algolia runs a free, public search API over the entire Hacker News corpus.",
-        "In other words: Search stories, comments and users by text, author, time range or points \u2014 perfect for a 'what developers are reading' widget on a blog, and a fine read-only data source for research tools like this one.",
-        "The links in the sources section go straight to the primary docs."
+        "First, the thing that actually matters: Algolia runs a free, public search API over the entire Hacker News corpus.",
+        "In practice that means: Search stories, comments and users by text, author, time range or points \u2014 perfect for a 'what developers are reading' widget on a blog, and a fine read-only data source for research tools like this one.",
+        "For a personal project or side business, this covers you without breaking a sweat."
       ],
       "bullets": [],
       "source": {
@@ -23,7 +23,7 @@
     {
       "heading": "Mastodon API",
       "paragraphs": [
-        "The short version: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
+        "Skip the fluff and start here: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
         "In other words: Create an app in your instance's developer settings, exchange it for a token, and the REST API handles statuses, follows and search. Because the whole platform is open source and federated, posting to it costs nothing and can point at an instance you run yourself.",
         "The links in the sources section go straight to the primary docs."
       ],
@@ -37,8 +37,8 @@
       "heading": "Google Search Console",
       "paragraphs": [
         "Start with the basics. Google Search Console is free and it is the single most valuable SEO tool there is.",
-        "So what does that look like when you're actually doing it? Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
-        "The links in the sources section go straight to the primary docs."
+        "In practice that means: Verify the site (a file or DNS record \u2014 both free), submit the sitemap, and you get the queries that actually bring people, the pages that rank, and indexing problems caught early. Nothing on a paid SEO stack replaces this data, and it costs nothing.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
       ],
       "bullets": [
         "Add the site property and verify with a DNS TXT record or verification file",
@@ -53,9 +53,9 @@
     {
       "heading": "Github Actions Cron",
       "paragraphs": [
-        "Start with the basics. GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
+        "Worth spending ten minutes on: GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
         "In other words: A YAML file with a cron expression is a scheduler: the engine wakes up, researches, writes, publishes, and commits the result. Public repos get unlimited minutes, and the same workflow file gives the owner a one-click 'run now' button in the Actions tab.",
-        "If you only do one thing today, make it this one."
+        "Keep it this simple and you'll be ahead of most tutorials out there."
       ],
       "bullets": [
         "Add on: schedule: - cron: '17 6 * * *' to a workflow",
@@ -70,22 +70,22 @@
   ],
   "faq": [
     {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "Algolia runs a free, public search API over the entire Hacker News corpus. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
       "question": "How much do I need to know before trying free api for developers without key?",
-      "answer": "Less than you'd think. Algolia runs a free, public search API over the entire Hacker News corpus. Start there and only add pieces when you feel actual pain."
+      "answer": "Google Search Console is free and it is the single most valuable SEO tool there is. Treat that as the working assumption and re-check the docs once a quarter."
     },
     {
       "question": "What are the real limitations of free api for developers without key?",
-      "answer": "Mostly, yes. GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
-    },
-    {
-      "question": "What would you do first if you only had one free afternoon?",
-      "answer": "Google Search Console is free and it is the single most valuable SEO tool there is. Treat that as the working assumption and re-check the docs once a quarter."
+      "answer": "The honest answer: Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
     }
   ],
   "takeaways": [
-    "The whole point in one sentence: Algolia runs a free, public search API over the entire Hacker News corpus.",
+    "Don't forget \u2014 Algolia runs a free, public search API over the entire Hacker News corpus.",
     "Don't forget \u2014 Mastodon's API is free and fully documented \u2014 any instance lets you register an app and post programmatically.",
-    "The whole point in one sentence: GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
+    "Don't forget \u2014 GitHub Actions supports cron-scheduled workflows, and this repo runs its blog on exactly that \u2014 free, with no server.",
     "Don't forget \u2014 Google Search Console is free and it is the single most valuable SEO tool there is."
   ],
   "tags": [
@@ -117,8 +117,9 @@
     }
   ],
   "created": "2026-11-22T14:40:35+00:00",
-  "updated": "2026-11-22T14:40:35+00:00",
-  "backend": "template",
-  "words": 714,
-  "reading_time": 4
+  "updated": "2026-11-25T17:20:11+00:00",
+  "backend": "template+refresh",
+  "words": 708,
+  "reading_time": 4,
+  "updated_count": 1
 }

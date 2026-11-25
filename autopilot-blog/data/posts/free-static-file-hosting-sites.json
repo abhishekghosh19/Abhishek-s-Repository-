@@ -1,0 +1,124 @@
+{
+  "slug": "free-static-file-hosting-sites",
+  "title": "Free Static File Hosting Sites \u2014 What Actually Works in 2026",
+  "meta_description": "What does Free Static File Hosting Sites cost in 2026 (spoiler: nothing), and how do you set it up properly? Covers free tiers, open-source alternatives and\u2026",
+  "intro": [
+    "This is the kind of post The Free Stack exists to write: a practical, no-fluff guide to free static file hosting sites, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.",
+    "We'll walk through Why Static Hosting Is Free, Github Pages, Cloudflare Pages, and Netlify Free Tier \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Why Static Hosting Is Free",
+      "paragraphs": [
+        "Skip the fluff and start here: Static sites are cheap to host because there is no server to keep awake \u2014 which is why so many hosts give the tier away.",
+        "The upshot: Files are cached at edge nodes and served from memory; there is no database, no runtime, no scaling. When the marginal cost of serving a page approaches zero, hosting becomes a feature to win signups \u2014 and that is the deal a personal blog gets to keep.",
+        "Keep it this simple and you'll be ahead of most tutorials out there."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Cloudflare \u2014 Static content caching",
+        "url": "https://developers.cloudflare.com/cache/"
+      }
+    },
+    {
+      "heading": "Github Pages",
+      "paragraphs": [
+        "Skip the fluff and start here: GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code.",
+        "The upshot: Point Pages at any subdirectory of a repository and GitHub serves it over HTTPS with a built-in URL, custom domain support, and automatic deploys on every push. For a static blog the entire hosting bill is zero, with no server, no DNS glue, and no renewal dates.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [
+        "Pick a directory (e.g. autopilot-blog/site/) as the site source in repo Settings \u2192 Pages",
+        "Push (or let the engine push) the built HTML and the site deploys in under a minute",
+        "Optionally map a custom domain in the same settings page"
+      ],
+      "source": {
+        "title": "GitHub Docs \u2014 About custom domains and GitHub Pages",
+        "url": "https://docs.github.com/en/pages"
+      }
+    },
+    {
+      "heading": "Cloudflare Pages",
+      "paragraphs": [
+        "Start with the basics. Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request.",
+        "The upshot: Connect a Git repo and every branch or PR gets its own preview URL, while the main branch gets a production URL on Cloudflare's network. The free tier covers static sites comfortably and custom domains are supported without a separate CDN bill.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [
+        "Create a Pages project in the Cloudflare dashboard and link the repo",
+        "Point the build output at the static folder",
+        "Add a custom domain in the project's domains tab"
+      ],
+      "source": {
+        "title": "Cloudflare \u2014 Pages documentation",
+        "url": "https://developers.cloudflare.com/pages/"
+      }
+    },
+    {
+      "heading": "Netlify Free Tier",
+      "paragraphs": [
+        "Worth spending ten minutes on: Netlify's free tier hosts a static site with SSL, CI/CD from Git, forms and generous bandwidth \u2014 no card required.",
+        "So what does that look like when you're actually doing it? Netlify is the classic pick for static sites: drag a folder in or connect a repo, and it handles builds, redirects, and TLS certificates automatically. The free plan's limits are far beyond what a personal blog ever needs.",
+        "If you only do one thing today, make it this one."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "Netlify \u2014 Pricing (free plan)",
+        "url": "https://www.netlify.com/pricing/"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the real limitations of free static file hosting sites?",
+      "answer": "GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code. Treat that as the working assumption and re-check the docs once a quarter."
+    },
+    {
+      "question": "Can I keep this free forever, or is it a trial?",
+      "answer": "Mostly, yes. Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    },
+    {
+      "question": "Is free static file hosting sites actually free?",
+      "answer": "Netlify's free tier hosts a static site with SSL, CI/CD from Git, forms and generous bandwidth \u2014 no card required. Treat that as the working assumption and re-check the docs once a quarter."
+    }
+  ],
+  "takeaways": [
+    "Don't forget \u2014 Static sites are cheap to host because there is no server to keep awake \u2014 which is why so many hosts give the tier away.",
+    "Don't forget \u2014 GitHub Pages is a free static-hosting service built directly into the repo that already hosts your code.",
+    "Remember: Cloudflare Pages is a free static hosting platform with a global CDN and preview deploys for every pull request.",
+    "Netlify's free tier hosts a static site with SSL, CI/CD from Git, forms and generous bandwidth \u2014 no card required. That one fact covers most of the confusion around free static file hosting sites."
+  ],
+  "tags": [
+    "free-hosting",
+    "hosting",
+    "static-sites",
+    "github"
+  ],
+  "keywords": [
+    "free static file hosting sites",
+    "free hosting for static sites"
+  ],
+  "sources": [
+    {
+      "title": "Cloudflare \u2014 Static content caching",
+      "url": "https://developers.cloudflare.com/cache/"
+    },
+    {
+      "title": "GitHub Docs \u2014 About custom domains and GitHub Pages",
+      "url": "https://docs.github.com/en/pages"
+    },
+    {
+      "title": "Cloudflare \u2014 Pages documentation",
+      "url": "https://developers.cloudflare.com/pages/"
+    },
+    {
+      "title": "Netlify \u2014 Pricing (free plan)",
+      "url": "https://www.netlify.com/pricing/"
+    }
+  ],
+  "created": "2026-11-25T17:20:11+00:00",
+  "updated": "2026-11-25T17:20:11+00:00",
+  "backend": "template",
+  "words": 748,
+  "reading_time": 4
+}
