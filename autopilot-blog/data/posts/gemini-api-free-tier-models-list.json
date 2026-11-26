@@ -1,0 +1,116 @@
+{
+  "slug": "gemini-api-free-tier-models-list",
+  "title": "Gemini API Free Tier Models List: A Practical Field Guide",
+  "meta_description": "Gemini API Free Tier Models List: practical, no-fluff guidance on the free and open options \u2014 the tools, the limits, and the trade-offs that matter. Written\u2026",
+  "intro": [
+    "This is the kind of post The Free Stack exists to write: a practical, no-fluff guide to gemini api free tier models list, assembled from free tiers, open-source projects and endpoints that ask for no API key at all.",
+    "We'll walk through Gemini API Free Tier, Choosing a Free LLM for a Blog, Openrouter Free Models, and Choose boring technology first \u2014 and finish with the questions people actually ask, so you can check before you buy anything. You shouldn't have to buy anything."
+  ],
+  "sections": [
+    {
+      "heading": "Gemini API Free Tier",
+      "paragraphs": [
+        "Worth spending ten minutes on: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+        "In practice that means: You sign in with a Google account, create a key in AI Studio, and call the models over an OpenAI-compatible endpoint. The free tier's rate limits are more than enough for a blog that writes a few posts a day, and the paid tier is only for when you outgrow the quotas.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [
+        "Create a Google AI Studio API key",
+        "Point any OpenAI-compatible client at the Gemini OpenAI endpoint",
+        "Set LLM_BASE_URL, LLM_API_KEY and LLM_MODEL and this engine writes with it"
+      ],
+      "source": {
+        "title": "Google \u2014 Gemini API rate limits",
+        "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+      }
+    },
+    {
+      "heading": "Choosing a Free LLM for a Blog",
+      "paragraphs": [
+        "Skip the fluff and start here: For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person.",
+        "In practice that means: A few posts a day uses a tiny fraction of any free tier's daily allowance. The practical recipe: pick one primary provider for reliability, keep a second as fallback in an env var, and let the engine fall back to its template writer if both fail \u2014 the blog never misses a publish date.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "The Free Stack \u2014 this engine's writer module",
+        "url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog"
+      }
+    },
+    {
+      "heading": "Openrouter Free Models",
+      "paragraphs": [
+        "First, the thing that actually matters: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+        "Concretely: One key, one endpoint, many backends \u2014 you can switch models in a config line and keep the same code. The free models rotate, but the pattern is stable: check the model list, pick the ones marked free, done.",
+        "No signup wall, no credit card \u2014 just a README and some patience."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "OpenRouter \u2014 model list and pricing",
+        "url": "https://openrouter.ai/models"
+      }
+    },
+    {
+      "heading": "Choose boring technology first",
+      "paragraphs": [
+        "The short version: The best infrastructure for a side project is the least surprising kind: static files, a public repo, a free CDN in front of it.",
+        "The upshot: Every exotic dependency is a future tax. If a free, open-source tool can serve the job, pick the one with the longest track record and the biggest community, and save the interesting experiments for the parts users actually touch.",
+        "For a personal project or side business, this covers you without breaking a sweat."
+      ],
+      "bullets": [],
+      "source": {
+        "title": "",
+        "url": ""
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What are the real limitations of gemini api free tier models list?",
+      "answer": "Mostly, yes. OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required. The free tier is the product, not the teaser \u2014 but the paid tier exists for when you need slas, support or volume."
+    },
+    {
+      "question": "How much do I need to know before trying gemini api free tier models list?",
+      "answer": "Less than you'd think. For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person. Start there and only add pieces when you feel actual pain."
+    },
+    {
+      "question": "Is gemini api free tier models list actually free?",
+      "answer": "Mostly, yes. OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required. The catch is usually scale or politeness: rate limits, bandwidth caps, or the fine print of the free tier."
+    }
+  ],
+  "takeaways": [
+    "Remember: Google's Gemini API has a free tier with per-minute and per-day model quotas \u2014 no credit card required.",
+    "The whole point in one sentence: OpenRouter aggregates dozens of model providers behind one API, and a set of models carry a ':free' suffix with no credit card required.",
+    "For an autonomous blog the right model is the one that hits the free quotas comfortably while sounding like a person. That one fact covers most of the confusion around gemini api free tier models list."
+  ],
+  "tags": [
+    "free-api",
+    "llm",
+    "ai",
+    "no-key"
+  ],
+  "keywords": [
+    "gemini api free tier models list",
+    "gemini api free tier",
+    "gemini api free tier models"
+  ],
+  "sources": [
+    {
+      "title": "Google \u2014 Gemini API rate limits",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+    },
+    {
+      "title": "The Free Stack \u2014 this engine's writer module",
+      "url": "https://github.com/abhishekghosh19/Abhishek-s-Repository-/tree/main/autopilot-blog"
+    },
+    {
+      "title": "OpenRouter \u2014 model list and pricing",
+      "url": "https://openrouter.ai/models"
+    }
+  ],
+  "created": "2026-11-26T17:00:00+00:00",
+  "updated": "2026-11-26T17:00:00+00:00",
+  "backend": "template",
+  "words": 741,
+  "reading_time": 4
+}

@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-25T17:19:54+00:00",
+  "at": "2026-11-26T16:59:45+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "python web scraping tutorial",
-    "free static file hosting sites"
+    "free hosting for static website",
+    "gemini api free tier models list"
   ],
   "published": [
-    "python-web-scraping-tutorial",
-    "free-static-file-hosting-sites"
+    "free-hosting-for-static-website",
+    "gemini-api-free-tier-models-list"
   ],
   "refreshed": [
-    "free-api-for-developers-without-key"
+    "free-llm-api-no-credit-card"
   ],
   "audits": {
     "cloudflare-pages-free-tier": 100,
@@ -26,6 +26,7 @@
     "free-custom-domain-hosting": 100,
     "free-custom-domain-website": 89,
     "free-google-hosting-for-static-sites": 100,
+    "free-hosting-for-static-website": 100,
     "free-llm-api-claude": 100,
     "free-llm-api-github-repo": 100,
     "free-llm-api-github": 100,
@@ -45,6 +46,7 @@
     "free-weather-api-key": 89,
     "gemini-api-free-tier-image-generation": 89,
     "gemini-api-free-tier-limits": 100,
+    "gemini-api-free-tier-models-list": 100,
     "gemini-api-free-tier-models": 100,
     "gemini-api-free-tier-rate-limit": 100,
     "gemini-api-free-tier-usage-limits": 100,
@@ -291,26 +293,38 @@
     },
     {
       "id": "python-web-scraping-tutorial:published-2026-11-25T17:20:11+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "free-static-file-hosting-sites:published-2026-11-25T17:20:11+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-api-for-developers-without-key:updated-2026-11-25T17:20:11+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-hosting-for-static-website:published-2026-11-26T17:00:00+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-api-for-developers-without-key:updated-2026-11-25T17:20:11+00:00",
+      "id": "gemini-api-free-tier-models-list:published-2026-11-26T17:00:00+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-26T17:00:00+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 127,
-    "posts": 48,
+    "pages": 131,
+    "posts": 50,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
