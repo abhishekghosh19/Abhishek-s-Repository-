@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-26T16:59:45+00:00",
+  "at": "2026-11-27T16:45:55+00:00",
   "site": "The Free Stack",
   "research_mode": "online",
   "researched": 60,
   "new_keywords": [
-    "free hosting for static website",
-    "gemini api free tier models list"
+    "open source notion alternative github",
+    "open source alternative"
   ],
   "published": [
-    "free-hosting-for-static-website",
-    "gemini-api-free-tier-models-list"
+    "open-source-notion-alternative-github",
+    "open-source-alternative"
   ],
   "refreshed": [
     "free-llm-api-no-credit-card"
@@ -51,6 +51,8 @@
     "gemini-api-free-tier-rate-limit": 100,
     "gemini-api-free-tier-usage-limits": 100,
     "notion-alternative-open-source-self-hosted": 89,
+    "open-source-alternative": 100,
+    "open-source-notion-alternative-github": 89,
     "open-source-notion-alternative-reddit": 89,
     "python-web-scraping-beautifulsoup": 89,
     "python-web-scraping-dynamic-content": 100,
@@ -240,10 +242,6 @@
       "channels": {}
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-20T15:33:41+00:00",
-      "channels": {}
-    },
-    {
       "id": "cloudflare-pages-free-tier:published-2026-11-21T14:44:18+00:00",
       "channels": {}
     },
@@ -305,26 +303,38 @@
     },
     {
       "id": "free-hosting-for-static-website:published-2026-11-26T17:00:00+00:00",
-      "channels": {
-        "rss": "ok (listed in feed.xml (built into the site))"
-      }
+      "channels": {}
     },
     {
       "id": "gemini-api-free-tier-models-list:published-2026-11-26T17:00:00+00:00",
+      "channels": {}
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-26T17:00:00+00:00",
+      "channels": {}
+    },
+    {
+      "id": "open-source-notion-alternative-github:published-2026-11-27T16:46:23+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     },
     {
-      "id": "free-llm-api-no-credit-card:updated-2026-11-26T17:00:00+00:00",
+      "id": "open-source-alternative:published-2026-11-27T16:46:23+00:00",
+      "channels": {
+        "rss": "ok (listed in feed.xml (built into the site))"
+      }
+    },
+    {
+      "id": "free-llm-api-no-credit-card:updated-2026-11-27T16:46:23+00:00",
       "channels": {
         "rss": "ok (listed in feed.xml (built into the site))"
       }
     }
   ],
   "build": {
-    "pages": 131,
-    "posts": 50,
+    "pages": 135,
+    "posts": 52,
     "site_dir": "/home/runner/work/Abhishek-s-Repository-/Abhishek-s-Repository-/autopilot-blog/site"
   },
   "errors": []
